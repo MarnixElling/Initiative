@@ -23,6 +23,7 @@
                 <div class="col-lg-2 col-md-3">
                     <a href="index.php?id=1"><button>Business Colorscheme</button></a>
                     <a href="index.php?id=2"><button>Friendly Colorscheme</button></a>
+                    <a href="index.php?id=3"><button>Warm Colorscheme</button></a>
                 </div>
             </div>
             <?php require('footer.php'); ?>
