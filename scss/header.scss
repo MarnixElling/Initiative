@@ -1,0 +1,103 @@
+@import 'base';
+
+@keyframes COGWHEEL {
+    0%   { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+@keyframes HOVERTEXT {
+    0% { text-shadow: 0px 0px 3px $w; color: #dadada; }
+    25% { text-shadow: 0px 0px 5px $w; color: #ececec; }
+    50% { text-shadow: 0px 0px 15px $w; color: $w; }
+    75% { text-shadow: 0px 0px 5px $w; color: #ececec; }
+    100% { text-shadow: 0px 0px 3px $w; color: #dadada; }
+}
+
+body {
+    header {
+        .header {
+            @extend %space;
+            width: 100%;
+            .row {
+                width: 100%;
+            }
+            .nav {
+                background: transparent;
+                position: relative;
+                z-index: 3;
+                height: 10vh;
+                @extend %ts;
+                img {
+                    @extend %space;
+                    width: 40%;
+                    height: auto;
+                    border-radius: 50px;
+                    box-shadow: 2px 2px 3px $gr;
+                }
+                ul {
+                    @extend %space;
+                    list-style-type: none;
+                    width: 100%;
+                    li {
+                        display: inline-block;
+                        color: $w;
+                        @extend %uc;
+                        @extend %fnormal;
+                        font-size: 20px;
+                        margin-left: 5%;
+                        margin-right: 5%;
+                        a:link {
+                            color: $w;
+                        }
+                        a:visited {
+                            color: $w;
+                        }
+                        a:hover {
+                            text-decoration: none;
+                            animation: HOVERTEXT 1s infinite;
+                            animation-timing-function: linear;
+                        }
+                    }
+                }
+                .settings {
+                    height: 10vh;
+                    button {
+                        border: none;
+                        background: transparent;
+                        color: $w;
+                        font-size: 30px;
+                        outline: none;
+                        text-shadow: 2px 2px 3px #000000;
+                    }
+                    button:hover {
+                        animation: COGWHEEL 3.5s infinite;
+                        animation-timing-function: linear;
+                    }
+                }
+            }
+            .front {
+                position: absolute;
+                color: $w;
+                z-index: 2;
+                margin-top: 30vh;
+                text-align: center;
+                font-size: 30px;
+                @extend %fwelcome;
+                line-height: 0px;
+                h1 {
+                    text-align: center;
+                    font-size: 175px;
+                    @extend %ftitle;
+                    @extend %space;
+                }
+            }
+            img {
+                width: 100%;
+                height: 120vh;
+                object-fit: cover;
+                position: relative;
+                z-index: 1;
+                margin-top: -20vh;
+            }
+        }
+    }
+}

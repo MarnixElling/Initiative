@@ -12,21 +12,9 @@
         if ($result->num_rows > 0) {
         while($row = $result->fetch_assoc()){
         ?>
-            <?php require('header.php'); ?>
-            <div class="row scheme">
-                <div class="col-lg-3 col-md-3" style="background-color: <?php echo $row['color1'] ?>;">test</div>
-                <div class="col-lg-3 col-md-3" style="background-color: <?php echo $row['color2'] ?>;">test</div>
-                <div class="col-lg-3 col-md-3" style="background-color: <?php echo $row['color3'] ?>;">test</div>
-                <div class="col-lg-3 col-md-3" style="background-color: <?php echo $row['color4'] ?>;">test</div>
-            </div>
-            <div class="row colors">
-                <div class="col-lg-2 col-md-3">
-                    <a href="home.php?id=1"><button>Business Colorscheme</button></a>
-                    <a href="home.php?id=2"><button>Friendly Colorscheme</button></a>
-                    <a href="home.php?id=3"><button>Warm Colorscheme</button></a>
-                </div>
-            </div>
-            <?php require('footer.php'); ?>
+            <?php include ('header.php'); ?>
+            
+            <?php include ('footer.php'); ?>
         <?php
             }
         } else {
