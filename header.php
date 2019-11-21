@@ -12,7 +12,18 @@
                             <li><a href="#skills">skillset</a></li>
                             <li><a href="#about">over ons</a></li>
                             <li><a href="#partners">partners</a></li>
-                            <li><a href="#contact">contact</a></li>
+                            <li>
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        contact
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                     <div class="col-lg-1 col-md-1">
@@ -45,7 +56,6 @@
                     <div class="col-lg-4 col-md-4"></div>
                 </div>
                 <img src="media/background.png" alt="header image">
-                <div style="background-color: <?php echo $row['color2'] ?>; width: 40%; height: 100px;">
             </div>
         </div>
     </div>

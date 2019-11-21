@@ -1,5 +1,203 @@
 @import 'base';
 
+@keyframes COGWHEEL {
+    0%   { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+@keyframes HOVERTEXT {
+    0% { text-shadow: 0px 0px 3px $w; color: #dadada; }
+    25% { text-shadow: 0px 0px 5px $w; color: #ececec; }
+    50% { text-shadow: 0px 0px 15px $w; color: $w; }
+    75% { text-shadow: 0px 0px 5px $w; color: #ececec; }
+    100% { text-shadow: 0px 0px 3px $w; color: #dadada; }
+}
+
 body {
-    @extend %space;
+    header {
+        .header {
+            @extend %space;
+            width: 100%;
+            .row {
+                width: 100%;
+            }
+            .nav {
+                background: transparent;
+                position: relative;
+                z-index: 4;
+                height: 10vh;
+                @extend %ts;
+                img {
+                    @extend %space;
+                    width: 40%;
+                    height: auto;
+                    border-radius: 50px;
+                    box-shadow: 2px 2px 3px $gr;
+                }
+                ul {
+                    @extend %space;
+                    @extend %lst;
+                    width: 100%;
+                    li {
+                        display: inline-block;
+                        color: $w;
+                        @extend %uc;
+                        @extend %fnormal;
+                        font-size: 1.25em;
+                        margin-left: 5%;
+                        margin-right: 5%;
+                        a:link {
+                            color: $w;
+                        }
+                        a:visited {
+                            color: $w;
+                        }
+                        a:hover {
+                            text-decoration: none;
+                            animation: HOVERTEXT 1s infinite;
+                            animation-timing-function: linear;
+                        }
+                        .btn {
+                            color: $w;
+                            @extend %uc;
+                            @extend %fnormal;
+                            @extend %ts;
+                            font-size: 1em;
+                            background: transparent;
+                            border: none;
+                        }
+                        .btn-secondary.dropdown-toggle:focus {
+                            box-shadow: none;
+                            background: #ffffff6c;
+                            border-radius: 0;
+                        }
+                        .dropdown-menu {
+                            background: #ffffff6c;
+                            border-radius: 0;
+                            .dropdown-item:focus {
+                                background: #ffffff6c;
+                            }
+                        }
+                    }
+                }
+                .settings {
+                    height: 10vh;
+                    button {
+                        position: fixed;
+                        border: none;
+                        background: transparent;
+                        color: $w;
+                        font-size: 30px;
+                        outline: none;
+                        text-shadow: 2px 2px 3px #000000;
+                    }
+                    button:hover {
+                        animation: COGWHEEL 3.5s infinite;
+                        animation-timing-function: linear;
+                    }
+                    .active {
+                        color: $b;
+                        text-shadow: none;
+                    }
+                }
+            }
+            .settingsmenu {
+                position: absolute;
+                float: right;
+                .sidebar {
+                    background-color: $w;
+                    width: 30%;
+                    height: 100vh;
+                    position: fixed;
+                    z-index: 3;
+                    margin-top: -10vh;
+                    right: -30%;
+                    transition: right 0.5s ease;
+                    .content {
+                        margin-top: 3.5vh;
+                        margin-left: 20%;
+                        width: 66%;
+                        p {
+                            @extend %ftitle;
+                            font-size: 2em
+                        }
+                        ul {
+                            margin-top: 50px;
+                            @extend %lst;
+                            li {
+                                margin-top: 10px;
+                                a:link {
+                                    color: $b;
+                                }
+                                a:visited {
+                                    color: $b;
+                                }
+                                img {
+                                    width: 25%;
+                                    height: auto;
+                                    @extend %space;
+                                    float: right;
+                                }
+                            }
+                            .top {
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+                .active {
+                    right: 0 !important;
+                }
+            }
+            .front {
+                position: absolute;
+                color: $w;
+                z-index: 2;
+                margin-top: 30vh;
+                @extend %tac;
+                font-size: 30px;
+                @extend %fwelcome;
+                line-height: 0px;
+                h1 {
+                    @extend %tac;
+                    font-size: 175px;
+                    @extend %ftitle;
+                    @extend %space;
+                }
+            }
+            img {
+                width: 100%;
+                height: 120vh;
+                object-fit: cover;
+                position: relative;
+                z-index: 1;
+                margin-top: -20vh;
+            }
+        }
+    }
+    #skills {
+        color: $w;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        .skill {
+            @extend %tac;
+            .circle {
+                margin-left: 33%;
+                border-radius: 50%;
+                width: 125px;
+                height: 125px;
+                padding-top: 11px;
+                padding-left: 11px;
+                .circle2 {
+                    background: transparent;
+                    border: 2px solid $w;
+                    border-radius: 50%;
+                    width: 90%;
+                    font-size: 67px;
+                }
+            }
+        }
+        h2 {
+            @extend %ftitle;
+        }
+    }
 }

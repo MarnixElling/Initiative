@@ -13,7 +13,52 @@
         while($row = $result->fetch_assoc()){
         ?>
             <?php include ('header.php'); ?>
-            
+            <div class="container-fluid">
+                <div class="row" style="background-color: <?php echo $row['color1'] ?>;">
+                    <div class="col-lg-1 col-md-1"></div>
+                    <div class="col-lg-10 col-md-10">
+                        <div class="row" id="skills">
+                            <div class="col-lg-3 col-md-3 skill">
+                                <div class="circle" style="background-color: <?php echo $row['color3'] ?>;">
+                                    <div class="circle2">
+                                        <i class="fas fa-laptop-code"></i>
+                                    </div>
+                                </div><br>
+                                <h2>front end</h2>
+                                Zie meer
+                            </div>
+                            <div class="col-lg-3 col-md-3 skill">
+                                <div class="circle" style="background-color: <?php echo $row['color3'] ?>;">
+                                    <div class="circle2">
+                                        <i class="far fa-file-code"></i>
+                                    </div>
+                                </div><br>
+                                <h2>back end</h2>
+                                Zie meer
+                            </div>
+                            <div class="col-lg-3 col-md-3 skill">
+                                <div class="circle" style="background-color: <?php echo $row['color3'] ?>;">
+                                    <div class="circle2">
+                                        <i class="fas fa-laptop-code"></i>
+                                    </div>
+                                </div><br>
+                                <h2>front end</h2>
+                                Zie meer
+                            </div>
+                            <div class="col-lg-3 col-md-3 skill">
+                                <div class="circle" style="background-color: <?php echo $row['color3'] ?>;">
+                                    <div class="circle2">
+                                        <i class="fas fa-laptop-code"></i>
+                                    </div>
+                                </div><br>
+                                <h2>front end</h2>
+                                Zie meer
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-1 col-md-1"></div>
+                </div>
+            </div>
             <?php include ('footer.php'); ?>
         <?php
             }
