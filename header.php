@@ -18,7 +18,21 @@
                     <div class="col-lg-1 col-md-1">
                         <!-- rightside -->
                         <div class="settings d-flex justify-content-center align-items-center">
-                            <button><i class="fa fa-cog"></i></button>
+                            <button class="cogmenu"><i class="fa fa-cog"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row settingsmenu">
+                    <div class="sidebar">
+                        <div class="content">
+                            <p>Settings</p>
+                            <ul>
+                                <li class="top">Kleuren Schema:</li>
+                                <li><br></li>
+                                <li><a href="home.php?id=1">Business <img src="media/kleurenschema1.png" alt="business"></a></li>
+                                <li><a href="home.php?id=2">Friendly <img src="media/kleurenschema2.png" alt="friendly"></a></li>
+                                <li><a href="home.php?id=3">Warm <img src="media/kleurenschema3.png" alt="warm"></a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -31,6 +45,7 @@
                     <div class="col-lg-4 col-md-4"></div>
                 </div>
                 <img src="media/background.png" alt="header image">
+                <div style="background-color: <?php echo $row['color2'] ?>; width: 40%; height: 100px;">
             </div>
         </div>
     </div>

@@ -1,5 +1,6 @@
 $w: #ffffff;
 $gr: #b9b9b9;
+$b: #000000;
 
 /* fonts */
 %fnormal {
@@ -21,4 +22,7 @@ $gr: #b9b9b9;
 }
 %ts {
     text-shadow: 2px 2px 3px $gr; 
+}
+%lst {
+    list-style-type: none;
 }

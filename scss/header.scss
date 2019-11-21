@@ -35,14 +35,14 @@ body {
                 }
                 ul {
                     @extend %space;
-                    list-style-type: none;
+                    @extend %lst;
                     width: 100%;
                     li {
                         display: inline-block;
                         color: $w;
                         @extend %uc;
                         @extend %fnormal;
-                        font-size: 20px;
+                        font-size: 1.25em;
                         margin-left: 5%;
                         margin-right: 5%;
                         a:link {
@@ -72,6 +72,58 @@ body {
                         animation: COGWHEEL 3.5s infinite;
                         animation-timing-function: linear;
                     }
+                    .active {
+                        color: $b;
+                        text-shadow: none;
+                    }
+                }
+            }
+            .settingsmenu {
+                position: absolute;
+                float: right;
+                .sidebar {
+                    background-color: $w;
+                    width: 30%;
+                    height: 100vh;
+                    position: fixed;
+                    z-index: 2;
+                    margin-top: -10vh;
+                    right: -30%;
+                    transition: right 0.5s ease;
+                    .content {
+                        margin-top: 3.5vh;
+                        margin-left: 20%;
+                        width: 66%;
+                        p {
+                            @extend %ftitle;
+                            font-size: 2em
+                        }
+                        ul {
+                            margin-top: 50px;
+                            @extend %lst;
+                            li {
+                                margin-top: 10px;
+                                a:link {
+                                    color: $b;
+                                }
+                                a:visited {
+                                    color: $b;
+                                }
+                                img {
+                                    width: 25%;
+                                    height: auto;
+                                    @extend %space;
+                                    float: right;
+                                }
+                            }
+                            .top {
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+                .active {
+                    right: 0 !important;
                 }
             }
             .front {
