@@ -9,7 +9,7 @@
                     </div>
                     <div class="col-lg-10 col-md-10 d-flex justify-content-center align-items-center">
                         <ul>
-                            <li><a href="#skills">skillset</a></li>
+                            <li><a href="#skills">vaardigheden</a></li>
                             <li><a href="#about">over ons</a></li>
                             <li><a href="#partners">partners</a></li>
                             <li>
@@ -18,9 +18,9 @@
                                         contact
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                        <a class="dropdown-item" href="#">Something else here</a>
+                                        <a class="dropdown-item" href="#">FAQ</a>
+                                        <a class="dropdown-item" href="#contact">Email</a>
+                                        <a class="dropdown-item" href="#">Telefoon</a>
                                     </div>
                                 </div>
                             </li>
@@ -52,6 +52,9 @@
                     <div class="col-lg-4 col-md-4">
                         <h1>INITIATIVE™</h1>
                         Want met teamwork kom je het verst!
+                        <div class="button" style="background-color: <?php echo $row['color2']; ?>; border: 2px solid <?php echo $row['color3']; ?>;">
+                            <a href="#contact">Start Meteen</a>
+                        </div>
                     </div>
                     <div class="col-lg-4 col-md-4"></div>
                 </div>

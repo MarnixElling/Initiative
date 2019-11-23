@@ -163,6 +163,22 @@ body {
                     @extend %ftitle;
                     @extend %space;
                 }
+                .button {
+                    margin-top: 50px;
+                    height: 50px;
+                    width: 40%;
+                    margin-left: 30%;
+                    line-height: 40px;
+                    @extend %fnormal;
+                }
+                a:link {
+                    color: $w;
+                    text-decoration: none;
+                }
+                a:visited {
+                    color: $w;
+                    text-decoration: none;
+                }
             }
             img {
                 width: 100%;
@@ -179,6 +195,7 @@ body {
         padding-top: 5vh;
         padding-bottom: 5vh;
         .skill {
+            font-size: 18px;
             @extend %tac;
             .circle {
                 margin-left: 33%;
@@ -195,9 +212,51 @@ body {
                     font-size: 67px;
                 }
             }
+            .showmore {
+                .fa-chevron-down {
+                    font-size: 15px;
+                    margin-left: 1%;
+                    transition: transform 0.2s ease;
+                }
+                .active {
+                    transform: rotate(-90deg);
+                }
+            }
+            .showmore:hover {
+                cursor: pointer;
+            }
         }
         h2 {
             @extend %ftitle;
+        }
+    }
+    .contact-info {
+        background-color: $b;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        @extend %fnormal;
+    }
+    footer {
+        background-color: #383838;
+        height: 50vh;
+        width: 100%;
+        .container-fluid {
+            height: 100%;
+            .footer {
+                height: 100%;
+                .flist {
+                    height: 100%;
+                    hr {
+                        border: none;
+                        width: 2px;
+                        height: 101.5%;
+                        @extend %space;
+                        float: right;
+                        transform: rotate(-10deg);
+                        margin-top: -3px;
+                    }
+                }
+            }
         }
     }
 }

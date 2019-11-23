@@ -25,7 +25,7 @@
                                     </div>
                                 </div><br>
                                 <h2>front end</h2>
-                                Zie meer
+                                <div class="showmore">Zie meer <i class="fas fa-chevron-down"></i></div>
                             </div>
                             <div class="col-lg-3 col-md-3 skill">
                                 <div class="circle" style="background-color: <?php echo $row['color3'] ?>;">
@@ -34,7 +34,7 @@
                                     </div>
                                 </div><br>
                                 <h2>back end</h2>
-                                Zie meer
+                                <div class="showmore">Zie meer <i class="fas fa-chevron-down"></i></div>
                             </div>
                             <div class="col-lg-3 col-md-3 skill">
                                 <div class="circle" style="background-color: <?php echo $row['color3'] ?>;">
@@ -43,7 +43,7 @@
                                     </div>
                                 </div><br>
                                 <h2>design</h2>
-                                Zie meer
+                                <div class="showmore">Zie meer <i class="fas fa-chevron-down"></i></div>
                             </div>
                             <div class="col-lg-3 col-md-3 skill">
                                 <div class="circle" style="background-color: <?php echo $row['color3'] ?>;">
@@ -52,7 +52,7 @@
                                     </div>
                                 </div><br>
                                 <h2>Professionaliteit</h2>
-                                Zie meer
+                                <div class="showmore">Zie meer <i class="fas fa-chevron-down"></i></div>
                             </div>
                         </div>
                     </div>
