@@ -39,19 +39,19 @@
                             <div class="col-lg-3 col-md-3 skill">
                                 <div class="circle" style="background-color: <?php echo $row['color3'] ?>;">
                                     <div class="circle2">
-                                        <i class="fas fa-laptop-code"></i>
+                                        <i class="fas fa-paint-brush"></i>
                                     </div>
                                 </div><br>
-                                <h2>front end</h2>
+                                <h2>design</h2>
                                 Zie meer
                             </div>
                             <div class="col-lg-3 col-md-3 skill">
                                 <div class="circle" style="background-color: <?php echo $row['color3'] ?>;">
                                     <div class="circle2">
-                                        <i class="fas fa-laptop-code"></i>
+                                        <i class="fas fa-user-tie"></i>
                                     </div>
                                 </div><br>
-                                <h2>front end</h2>
+                                <h2>Professionaliteit</h2>
                                 Zie meer
                             </div>
                         </div>
