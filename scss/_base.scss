@@ -29,3 +29,14 @@ $b: #000000;
 %tac {
     text-align: center;
 }
+/* graph stuff */
+%graph {
+    margin-top: 50px;
+    width: 100%;
+}
+%graph-bar {
+    background-color: $b;
+    color: $w;
+    padding: 5px;
+    @extend %ts;
+}

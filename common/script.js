@@ -68,4 +68,27 @@ $(document).ready(function(){
             }
         }
     });
+    /* checks selected view */
+    $(".showmore").click(function(){
+        if($(".details1").hasClass("view")) {
+            $(".a-details").addClass("shown");
+        } else {
+            $(".a-details").removeClass("shown");
+        }
+        if($(".details2").hasClass("view")) {
+            $(".b-details").addClass("shown");
+        } else {
+            $(".b-details").removeClass("shown");
+        }
+        if($(".details3").hasClass("view")) {
+            $(".c-details").addClass("shown");
+        } else {
+            $(".c-details").removeClass("shown");
+        }
+        if($(".details4").hasClass("view")) {
+            $(".d-details").addClass("shown");
+        } else {
+            $(".d-details").removeClass("shown");
+        }
+    });
 });

@@ -230,20 +230,48 @@ body {
             @extend %ftitle;
         }
     }
+    .row {
+        .a-details {
+            display: none;
+            width: 100%;
+            .graph {
+                @extend %graph;
+                .graph-bar {
+                    @extend %graph-bar;
+                }
+            }
+        }
+        .b-details {
+            display: none;
+        }
+        .c-details {
+            display: none;
+        }
+        .d-details {
+            display: none;
+        }
+        .shown {
+            display: flex;
+        }
+    }
     .details1 {
-        display: none;
+        height: 0;
+        transition: height 0.3s ease;
     }
     .details2 {
-        display: none;
+        height: 0;
+        transition: height 0.3s ease;
     }
     .details3 {
-        display: none;
+        height: 0;
+        transition: height 0.3s ease;
     }
     .details4 {
-        display: none;
+        height: 0;
+        transition: height 0.3s ease;
     }
     .view {
-        display: flex;
+        height: 500px;
     }
     .contact-info {
         background-color: $b;

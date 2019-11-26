@@ -59,16 +59,44 @@
                     <div class="col-lg-1 col-md-1"></div>
                 </div>
                 <div class="row details1">
-                    test
+                    <div class="a-details">
+                        <div class="col-lg-2 col-md-2"></div>
+                        <div class="col-lg-8 col-md-8">
+                            <div class="graph">
+                                <div class="graph-bar" width="<?php echo $row['kennis']; ?>">
+                                    <?php echo $row['taal']; ?> - <?php echo $row['kennis']; ?>%
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2"></div>
+                    </div>
                 </div>
                 <div class="row details2">
-                    het
+                    <div class="b-details">
+                        <div class="col-lg-2 col-md-2"></div>
+                        <div class="col-lg-8 col-md-8">
+                            
+                        </div>
+                        <div class="col-lg-2 col-md-2"></div>
+                    </div>
                 </div>
                 <div class="row details3">
-                    allemaal
+                    <div class="c-details">
+                        <div class="col-lg-2 col-md-2"></div>
+                        <div class="col-lg-8 col-md-8">
+                            
+                        </div>
+                        <div class="col-lg-2 col-md-2"></div>
+                    </div>
                 </div>
                 <div class="row details4">
-                    uit
+                    <div class="d-details">
+                        <div class="col-lg-2 col-md-2"></div>
+                        <div class="col-lg-8 col-md-8">
+                            
+                        </div>
+                        <div class="col-lg-2 col-md-2"></div>
+                    </div>
                 </div>
             </div>
             <?php include ('footer.php'); ?>
