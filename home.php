@@ -25,7 +25,7 @@
                                     </div>
                                 </div><br>
                                 <h2>front end</h2>
-                                <div class="showmore">Zie meer <i class="fas fa-chevron-down"></i></div>
+                                <div class="showmore frontend">Zie meer <i class="fas fa-chevron-down arrow1"></i></div>
                             </div>
                             <div class="col-lg-3 col-md-3 skill">
                                 <div class="circle" style="background-color: <?php echo $row['color3'] ?>;">
@@ -34,7 +34,7 @@
                                     </div>
                                 </div><br>
                                 <h2>back end</h2>
-                                <div class="showmore">Zie meer <i class="fas fa-chevron-down"></i></div>
+                                <div class="showmore backend">Zie meer <i class="fas fa-chevron-down arrow2"></i></div>
                             </div>
                             <div class="col-lg-3 col-md-3 skill">
                                 <div class="circle" style="background-color: <?php echo $row['color3'] ?>;">
@@ -43,7 +43,7 @@
                                     </div>
                                 </div><br>
                                 <h2>design</h2>
-                                <div class="showmore">Zie meer <i class="fas fa-chevron-down"></i></div>
+                                <div class="showmore design">Zie meer <i class="fas fa-chevron-down arrow3"></i></div>
                             </div>
                             <div class="col-lg-3 col-md-3 skill">
                                 <div class="circle" style="background-color: <?php echo $row['color3'] ?>;">
@@ -52,11 +52,23 @@
                                     </div>
                                 </div><br>
                                 <h2>Professionaliteit</h2>
-                                <div class="showmore">Zie meer <i class="fas fa-chevron-down"></i></div>
+                                <div class="showmore prof">Zie meer <i class="fas fa-chevron-down arrow4"></i></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-1 col-md-1"></div>
+                </div>
+                <div class="row details1">
+                    test
+                </div>
+                <div class="row details2">
+                    het
+                </div>
+                <div class="row details3">
+                    allemaal
+                </div>
+                <div class="row details4">
+                    uit
                 </div>
             </div>
             <?php include ('footer.php'); ?>
