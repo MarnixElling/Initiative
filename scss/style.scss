@@ -243,6 +243,13 @@ body {
         }
         .b-details {
             display: none;
+            width: 100%;
+            .graph {
+                @extend %graph;
+                .graph-bar {
+                    @extend %graph-bar;
+                }
+            }
         }
         .c-details {
             display: none;

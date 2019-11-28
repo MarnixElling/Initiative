@@ -37,6 +37,7 @@ $b: #000000;
 %graph-bar {
     background-color: $b;
     color: $w;
-    padding: 5px;
+    padding: 10px;
+    margin-top: 10px;
     @extend %ts;
 }
