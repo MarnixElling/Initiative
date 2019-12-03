@@ -13,7 +13,6 @@
 }
 
 body {
-    background-color: $b;
     header {
         .header {
             @extend %space;
@@ -238,7 +237,7 @@ body {
             margin-right: 1%;
         }
         .explain:hover {
-            cursor: help;
+            cursor: pointer;
         }
         .code-description {
             opacity: 0;
@@ -249,6 +248,10 @@ body {
             margin-top: -55px;
             border-radius: 20px;
             color: $w;
+            transition: opacity 0.3s ease;
+        }
+        .explanation {
+            opacity: 1;
         }
         .a-details {
             opacity: 0;
@@ -259,6 +262,7 @@ body {
                 h2 {
                     margin-bottom: 25px;
                     color: $w;
+                    @extend %ftitle;
                 }
                 .graph-bar {
                     @extend %graph-bar;
@@ -279,6 +283,7 @@ body {
                 h2 {
                     margin-bottom: 25px;
                     color: $w;
+                    @extend %ftitle;
                 }
                 .graph-bar {
                     @extend %graph-bar;
@@ -294,11 +299,19 @@ body {
             display: none;
             width: 100%;
             background-color: $b;
+            @extend %fnormal;
+            h2 {
+                @extend %ftitle;
+            }
         }
         .d-details {
             display: none;
             width: 100%;
             background-color: $b;
+            @extend %fnormal;
+            h2 {
+                @extend %ftitle;
+            }
         }
         .shown {
             opacity: 1;
@@ -329,6 +342,18 @@ body {
         padding-top: 10px;
         padding-bottom: 10px;
         @extend %fnormal;
+    }
+    #about {
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        font-size: 20px;
+        @extend %fnormal;
+        @extend %tac;
+        h1 {
+            font-weight: bold;
+            font-size: 75px;
+            @extend %fwelcome;
+        }
     }
     footer {
         background-color: #383838;

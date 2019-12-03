@@ -101,8 +101,48 @@ $(document).ready(function(){
             $(".d-details").removeClass("shown");
         }
     });
-    /* PROGRAMMING LANGUAGES EXPLAINED */
-    $(".HTML1").hover(function(){
-        
+    /* FRONTEND LANGUAGES EXPLAINED */
+    $(".HTML1").mouseover(function(){
+        $(".HTML").addClass("explanation");
+    })
+    $(".HTML1").mouseout(function(){
+        $(".HTML").removeClass("explanation");
+    })
+    $(".SCSS2").mouseover(function(){
+        $(".SCSS").addClass("explanation");
+    })
+    $(".SCSS2").mouseout(function(){
+        $(".SCSS").removeClass("explanation");
+    })
+    $(".Bootstrap3").mouseover(function(){
+        $(".Bootstrap").addClass("explanation");
+    })
+    $(".Bootstrap3").mouseout(function(){
+        $(".Bootstrap").removeClass("explanation");
+    })
+    $(".jQuery4").mouseover(function(){
+        $(".jQuery").addClass("explanation");
+    })
+    $(".jQuery4").mouseout(function(){
+        $(".jQuery").removeClass("explanation");
+    })
+    /* BACKEND LANGUAGES EXPLAINED */
+    $(".PHP1").mouseover(function(){
+        $(".PHP").addClass("explanation");
+    })
+    $(".PHP1").mouseout(function(){
+        $(".PHP").removeClass("explanation");
+    })
+    $(".MySQL2").mouseover(function(){
+        $(".MySQL").addClass("explanation");
+    })
+    $(".MySQL2").mouseout(function(){
+        $(".MySQL").removeClass("explanation");
+    })
+    $(".Javascript3").mouseover(function(){
+        $(".Javascript").addClass("explanation");
+    })
+    $(".Javascript3").mouseout(function(){
+        $(".Javascript").removeClass("explanation");
     })
 });
