@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl">
     <?php
     require('common/connect.php');
     require('links.php');
