@@ -71,6 +71,7 @@
                         <div class="col-lg-2 col-md-2"></div>
                         <div class="col-lg-8 col-md-8">
                             <div class="graph">
+                                <h2>De kennis die wij bezitten om te maken wat jij nodig hebt.</h2>
                                 <?php include ('common/frontend.php'); ?>
                             </div>
                         </div>
@@ -81,7 +82,8 @@
                     <div class="b-details">
                         <div class="col-lg-2 col-md-2"></div>
                         <div class="col-lg-8 col-md-8">
-                        <div class="graph">
+                            <div class="graph">
+                                <h2>De kennis die wij bezitten om te maken wat jij nodig hebt.</h2>
                                 <?php include ('common/backend.php'); ?>
                             </div>
                         </div>

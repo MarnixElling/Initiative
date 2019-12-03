@@ -12,9 +12,12 @@ $(document).ready(function(){
         if($(".arrow1").hasClass("active")) {
             $(".arrow1").removeClass("active");
             $(".details1").removeClass("view");
+            $(".front-end").addClass("inactive");
         } else {
             $(".arrow1").addClass("active");
             $(".details1").addClass("view");
+            $(".front-end").removeClass("inactive");
+            $(".back-end").addClass("inactive");
             if($(".arrow2, .arrow3, .arrow4").hasClass("active")) {
                 $(".arrow2, .arrow3, .arrow4").removeClass("active");
             }
@@ -27,9 +30,12 @@ $(document).ready(function(){
         if($(".arrow2").hasClass("active")) {
             $(".arrow2").removeClass("active");
             $(".details2").removeClass("view");
+            $(".back-end").addClass("inactive");
         } else {
             $(".arrow2").addClass("active");
             $(".details2").addClass("view");
+            $(".back-end").removeClass("inactive");
+            $(".front-end").addClass("inactive");
             if($(".arrow1, .arrow3, .arrow4").hasClass("active")) {
                 $(".arrow1, .arrow3, .arrow4").removeClass("active");
             }
@@ -45,6 +51,8 @@ $(document).ready(function(){
         } else {
             $(".arrow3").addClass("active");
             $(".details3").addClass("view");
+            $(".front-end").addClass("inactive");
+            $(".back-end").addClass("inactive");
             if($(".arrow1, .arrow2, .arrow4").hasClass("active")) {
                 $(".arrow1, .arrow2, .arrow4").removeClass("active");
             }
@@ -60,6 +68,8 @@ $(document).ready(function(){
         } else {
             $(".arrow4").addClass("active");
             $(".details4").addClass("view");
+            $(".front-end").addClass("inactive");
+            $(".back-end").addClass("inactive");
             if($(".arrow1, .arrow2, .arrow3").hasClass("active")) {
                 $(".arrow1, .arrow2, .arrow3").removeClass("active");
             }
@@ -91,4 +101,8 @@ $(document).ready(function(){
             $(".d-details").removeClass("shown");
         }
     });
+    /* PROGRAMMING LANGUAGES EXPLAINED */
+    $(".HTML1").hover(function(){
+        
+    })
 });
