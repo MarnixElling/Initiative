@@ -44,6 +44,13 @@
                                 <li><a href="home.php?id=2">Friendly <img src="media/kleurenschema2.png" alt="friendly"></a></li>
                                 <li><a href="home.php?id=3">Warm <img src="media/kleurenschema3.png" alt="warm"></a></li>
                             </ul>
+                            <ul class="languages">
+                                <li class="top">Taal:</li>
+                                <li><br></li>
+                                <li class="option"><button class="language dutch selected"><img src="media/nl.png" alt="Nederlands"></button></li>
+                                <li class="option"><button class="language english"><img src="media/uk.png" alt="English"></button></li>
+                                <li class="option"><button class="language german"><img src="media/de.png" alt="Deutsch"></button></li>   
+                            </ul>
                         </div>
                     </div>
                 </div>

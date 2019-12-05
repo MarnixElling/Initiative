@@ -145,4 +145,20 @@ $(document).ready(function(){
     $(".Javascript3").mouseout(function(){
         $(".Javascript").removeClass("explanation");
     })
+    /* LANGUAGE OPTIONS */
+    $(".dutch").click(function(){
+        $(".dutch").addClass("selected");
+        $(".english").removeClass("selected");
+        $(".german").removeClass("selected");
+    });
+    $(".english").click(function(){
+        $(".dutch").removeClass("selected");
+        $(".english").addClass("selected");
+        $(".german").removeClass("selected");
+    });
+    $(".german").click(function(){
+        $(".dutch").removeClass("selected");
+        $(".english").removeClass("selected");
+        $(".german").addClass("selected");
+    });
 });
