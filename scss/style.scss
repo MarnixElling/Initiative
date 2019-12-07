@@ -319,20 +319,16 @@ body {
         }
     }
     .details1 {
-        height: 0;
-        transition: height 0.3s ease;
+        @extend %details;
     }
     .details2 {
-        height: 0;
-        transition: height 0.3s ease;
+        @extend %details;
     }
     .details3 {
-        height: 0;
-        transition: height 0.3s ease;
+        @extend %details;
     }
     .details4 {
-        height: 0;
-        transition: height 0.3s ease;
+        @extend %details;
     }
     .view {
         height: 420px;
@@ -353,6 +349,11 @@ body {
             font-weight: bold;
             font-size: 75px;
             @extend %fwelcome;
+            @extend %space;
+        }
+        hr {
+            border: none;
+            height: 1px;
         }
     }
     footer {

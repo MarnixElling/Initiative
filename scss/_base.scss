@@ -29,6 +29,10 @@ $b: #000000;
 %tac {
     text-align: center;
 }
+%details {
+    height: 0;
+    transition: height 0.3s ease;
+}
 /* graph stuff */
 %graph {
     margin-top: 50px;
