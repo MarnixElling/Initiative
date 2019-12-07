@@ -142,6 +142,26 @@ body {
                                 font-weight: bold;
                             }
                         }
+                        .languages {
+                            li {
+                                .language {
+                                    width: 50%;
+                                    border: none;
+                                    background: transparent;
+                                    padding: 5px;
+                                    img {
+                                        width: 100%;
+                                    }
+                                }
+                                .selected {
+                                    border: 1px solid $gr;
+                                }
+                            }
+                            .option {
+                                display: inline-block;
+                                width: 30%;
+                            }
+                        }
                     }
                 }
                 .active {
