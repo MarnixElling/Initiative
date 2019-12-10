@@ -13,6 +13,9 @@
 }
 
 body {
+    .shadow {
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75) !important;
+    }
     header {
         .header {
             @extend %space;
@@ -353,12 +356,6 @@ body {
     .view {
         height: 420px;
     }
-    .contact-info {
-        background-color: $b;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        @extend %fnormal;
-    }
     #about {
         padding-top: 10vh;
         padding-bottom: 10vh;
@@ -378,20 +375,31 @@ body {
     }
     .employees {
         margin-bottom: 10vh;
+        text-align: center;
         .employee {
-            text-align: center;
+            width: 30%;
             img {
-                width: 20%;
+                width: 60%;
                 margin-bottom: 20px;
             }
+        }
+        span {
+            @extend %ftitle;
+            font-size: 1.5em;
         }
     }
     #partners {
         text-align: center;
     }
+    .contact-info {
+        background-color: $b;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        @extend %fnormal;
+    }
     footer {
-        background-color: #383838;
-        height: 50vh;
+        background-color: #252525;
+        height: 35vh;
         width: 100%;
         .container-fluid {
             height: 100%;
@@ -407,9 +415,58 @@ body {
                         float: right;
                         transform: rotate(-10deg);
                         margin-top: -3px;
+                        background-color: $lgr;
+                    }
+                }
+                ul {
+                    position: absolute;
+                    @extend %lst;
+                    margin-top: 50px;
+                    margin-left: 15%;
+                    font-size: 16px;
+                    line-height: 40px;
+                    .top {
+                        @extend %ftitle;
+                        font-size: 40px;
+                        line-height: 70px;
+                        color: $w;
                     }
                 }
             }
+        }
+    }
+    .end {
+        background-color: #2b2b2b;
+        height: 10vh;
+        width: 100%;
+        @extend %space;
+        color: #808080;
+        .widgets {
+            font-size: 30px;
+            width: 100%;
+            ul {
+                width: 50%;
+                @extend %lst;
+                @extend %space;
+                text-align: center;
+                li {
+                    display: inline-block;
+                    margin-left: 2%;
+                    margin-right: 2%;
+                }
+            }
+        }
+        hr {
+            height: 1px;
+            width: 40%;
+            margin-left: 30%;
+            @extend %space;
+            background-color: $lgr;
+        }
+        .credits {
+            text-align: center;
+            font-size: 20px;
+            width: 100%;
         }
     }
 }
