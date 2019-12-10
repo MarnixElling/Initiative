@@ -17,7 +17,7 @@
                 $color4 = $row['color4'];
             }
         } else {
-            echo "Something went wrong.";
+            echo "Something went wrong while fetching colorschemes data.";
         }
         ?>
             <?php include ('header.php'); ?>
@@ -117,12 +117,49 @@
                     </div>
                     <div class="col-lg-3 col-md-3"></div>
                 </div>
+                <div class="row employees">
+                    <div class="col-lg-2 col-md-2"></div>
+                    <div class="col-lg-8 col-md-8 d-flex justify-content-around">
+                    <?php
+                        $sql = "SELECT * FROM employees";
+                        $result = $conn->query($sql);
+
+                        if ($result->num_rows > 0) {
+                            while($row = $result->fetch_assoc()){
+                                ?>
+                                <div class="employee" style="color: <?php echo $color2; ?>;">
+                                    <img src="<?php echo $row['img']; ?>" alt="<?php echo $row['name']; ?>">
+                                    <h2><?php echo $row['name']; ?></h2>
+                                    <span><?php echo $row['description']; ?></span>
+                                </div>
+                                <?php
+                            }
+                        } else {
+                            echo "Something went wrong while fetching employees data.";
+                        }
+                    ?>
+                    </div>
+                    <div class="col-lg-2 col-md-2"></div>
+                </div>
                 <div class="row" id="partners">
                     <div class="col-lg-2 col-md-2"></div>
                     <div class="col-lg-8 col-md-8">
-                        Partners vans ons:
-                        <div class="row">
+                        <h2 style="color: <?php echo $color3 ?>;">Partners vans ons:</h2><br><br>
+                        <div class="row" class="d-flex justify-content-center">
+                            <div class="col-lg-3 col-md-3 logo">
+                                <a href="http://supafresh.nl"><img src="media/logo-SupaFresh.png" alt="SupaFresh" width="35%"></a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 logo">
+                                <a href="http://bitbenders.gluweb.nl"><img src="media/logo-BitBenders.png" alt="BitBenders" width="25%"></a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 logo">
+                                <a href="http://bwire.nl"><img src="media/logo-BWire.png" alt="BWire" width="35%"></a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 logo">
+                                <a href="http://lentjesunlimited.nl"><img src="media/logo-Lentjes.png" alt="LentjesUnlimited" width="25%"></a>
+                            </div>
                         </div>
+                        <br>
                     </div>
                     <div class="col-lg-2 col-md-2"></div>
                 </div>

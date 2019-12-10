@@ -376,6 +376,19 @@ body {
             height: 1px;
         }
     }
+    .employees {
+        margin-bottom: 10vh;
+        .employee {
+            text-align: center;
+            img {
+                width: 20%;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    #partners {
+        text-align: center;
+    }
     footer {
         background-color: #383838;
         height: 50vh;
