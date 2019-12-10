@@ -36,7 +36,7 @@
                 <div class="row settingsmenu">
                     <div class="sidebar">
                         <div class="content">
-                            <p>Settings</p>
+                            <p>settings</p>
                             <ul>
                                 <li class="top">Kleuren Schema:</li>
                                 <li><br></li>
