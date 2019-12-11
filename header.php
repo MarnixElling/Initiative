@@ -34,7 +34,7 @@
                     </div>
                 </div>
                 <div class="row settingsmenu">
-                    <div class="sidebar">
+                    <div class="sidebar shadow">
                         <div class="content">
                             <p>settings</p>
                             <ul>

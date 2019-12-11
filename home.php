@@ -130,7 +130,7 @@
                                 if ($result->num_rows > 0) {
                                     while($row = $result->fetch_assoc()){
                                         ?>
-                                        <div class="employee" style="color: <?php echo $color2; ?>;">
+                                        <div class="employee" style="border: 2px solid <?php echo $color2; ?> ; color: <?php echo $color2; ?>;">
                                             <img src="<?php echo $row['img']; ?>" alt="<?php echo $row['name']; ?>" class="shadow">
                                             <h2><?php echo $row['name']; ?></h2>
                                             
@@ -144,6 +144,21 @@
                             ?>
                         </div>
                         <br><hr>
+                    </div>
+                    <div class="col-lg-2 col-md-2"></div>
+                </div>
+                <div class="row contact" id="#contact">
+                    <div class="col-lg-2 col-md-2"></div>
+                    <div class="col-lg-8 col-md-8 test">
+                        <h2 style="color: <?php echo $color3; ?>;">Email sturen:</h2><br>
+                        <form action="common/contact.php" method="post">
+                            <input tabindex="1" class="name" type="text" name="name" placeholder="Voornaam" required>
+                            <input tabindex="2" class="surname" type="text" name="name" placeholder="Achternaam" required><br>
+                            <input tabindex="3" class="mail" type="text" name="email" placeholder="Email" required>
+                            <input tabindex="4" class="mail" type="text" name="email" placeholder="Email" required><br>
+                            <input tabindex="5" class="message" type="textarea" name="message" placeholder="Bericht" required><br>
+                            <button class="button" type="submit" value="submit">Send your message</button>
+                        </form>
                     </div>
                     <div class="col-lg-2 col-md-2"></div>
                 </div>
