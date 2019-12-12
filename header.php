@@ -5,7 +5,7 @@
                 <div class="row nav">
                     <div class="col-lg-1 col-md-1 d-flex justify-content-center align-items-center">
                         <!-- leftside -->
-                        <img src="media/glogo.png">
+                        <img id="top" src="media/glogo.png">
                     </div>
                     <div class="col-lg-10 col-md-10 d-flex justify-content-center align-items-center">
                         <ul>
@@ -18,9 +18,9 @@
                                         contact
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <a class="dropdown-item" href="#">FAQ</a>
+                                        <a class="dropdown-item" href="">FAQ</a>
                                         <a class="dropdown-item" href="#contact">Email</a>
-                                        <a class="dropdown-item" href="#">Telefoon</a>
+                                        <a class="dropdown-item" href="#call">Telefoon</a>
                                     </div>
                                 </div>
                             </li>
@@ -59,13 +59,27 @@
                     <div class="col-lg-4 col-md-4">
                         <h1>INITIATIVE™</h1>
                         Want met teamwork kom je het verst!
-                        <div class="button" style="border: 2px solid <?php echo $color3; ?>;">
+                        <div class="button shadow" style="border: 2px solid <?php echo $color3; ?>;">
                             <a href="#contact">Start Meteen</a>
+                        </div>
+                        <div class="mouse d-flex justify-content-center">
+                            <a href="#skills">
+                                <div class="mouse-icon shadow">
+                                    <span class="mouse-wheel shadow"></span>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4"></div>
                 </div>
-                <img src="media/background.png" alt="header image">
+                <a href="#top">
+                    <button id="scrolltop" style="border: 2px solid <?php echo $color3 ?>; color: <?php echo $color3 ?>;">
+                        <i class="fas fa-angle-up"></i>
+                    </button>
+                </a>
+                <video autoplay muted loop post="media/background.png" class="background">
+                    <source src="media/background2.mp4" type="video/mp4">
+                </video>
             </div>
         </div>
     </div>

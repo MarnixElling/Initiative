@@ -21,7 +21,7 @@
         }
         ?>
             <?php include ('header.php'); ?>
-            <div class="container-fluid">
+            <div class="container-fluid main-content">
                 <div class="row shadow" style="background-color: <?php echo $color1 ?>;">
                     <div class="col-lg-1 col-md-1"></div>
                     <div class="col-lg-10 col-md-10">
@@ -130,7 +130,7 @@
                                 if ($result->num_rows > 0) {
                                     while($row = $result->fetch_assoc()){
                                         ?>
-                                        <div class="employee shadow" style="border: 2px solid <?php echo $color2; ?> ; color: <?php echo $color2; ?>;">
+                                        <div class="employee" style="border: 2px solid <?php echo $color2; ?> ; color: <?php echo $color2; ?>;">
                                             <img src="<?php echo $row['img']; ?>" alt="<?php echo $row['name']; ?>">
                                             <h2><?php echo $row['name']; ?></h2>
                                             
@@ -147,7 +147,7 @@
                     </div>
                     <div class="col-lg-2 col-md-2"></div>
                 </div>
-                <div class="row contact" id="#contact">
+                <div class="row contact" id="contact">
                     <div class="col-lg-2 col-md-2"></div>
                     <div class="col-lg-8 col-md-8 test">
                         <h2 style="color: <?php echo $color3; ?>;">Email sturen:</h2><br>
@@ -162,7 +162,7 @@
                             <style>
                                 .button:hover {
                                     background-color: <?php echo $color3; ?> !important;
-                                    transition: all 0.3s ease;
+                                    cursor: pointer;
                                 }
                             </style>
                         </form>

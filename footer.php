@@ -24,7 +24,7 @@
                 </ul>
                 <hr>
             </div>
-            <div class="col-lg-4 col-md-4 flist">
+            <div class="col-lg-4 col-md-4 flist" id="call">
                 <ul>
                     <li class="top">Ik wil graag bellen</li>
                     <li><i class="fas fa-chevron-right"></i> Niels Perdon: +31 06 3334 9194</li>
@@ -47,11 +47,11 @@
     <div class="row widgets">
         <div class="col-lg-12 col-md-12 d-flex justify-content-center">
             <ul>
-                <li><a><i class="fab fa-github"></i></a></li>
-                <li><a><i class="fab fa-stack-overflow"></i></a></li>
-                <li><a><i class="fab fa-gitlab"></i></a></li>
-                <li><a><i class="fab fa-linkedin-in"></i></a></li>
-                <li><a><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://github.com/TemplarMarnix/Initiative"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://stackoverflow.com/users/12053528/initiative"><i class="fab fa-stack-overflow"></i></a></li>
+                <li><a href="https://gitlab.com/TemplarMarnix"><i class="fab fa-gitlab"></i></a></li>
+                <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
             </ul>
         </div>
     </div>

@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    /* settings bar */
+    /* SETTINGS BAR */
     $(".cogmenu").click(function(){
         if($(".cogmenu").hasClass("active")) {
             $(".sidebar, .cogmenu").removeClass("active");
@@ -7,7 +7,7 @@ $(document).ready(function(){
             $(".sidebar, .cogmenu").addClass("active");
         }
     });
-    /* skillset bar */
+    /* SKILLSET BAR */
     $(".frontend").click(function(){
         if($(".arrow1").hasClass("active")) {
             $(".arrow1").removeClass("active");
@@ -78,7 +78,7 @@ $(document).ready(function(){
             }
         }
     });
-    /* checks selected view */
+    /* CHECKS SELECTED VIEW */
     $(".showmore").click(function(){
         if($(".details1").hasClass("view")) {
             $(".a-details").addClass("shown");
@@ -161,11 +161,29 @@ $(document).ready(function(){
         $(".english").removeClass("selected");
         $(".german").addClass("selected");
     });
+    /* EMAIL CONFIRMATION CHECKER */
     $('#form').on('submit', function(e) {
         if ($('.email1').val() !== $('.email2').val()) {
             e.preventDefault();
             $('.error').append('<p>Emails komen niet overheen!</p>')
         }
     });
+    /* SMOOTH SCROLL ANCHOR POINTS */
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+    /* SCROLL DISTANCE CHECKER */
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 1000) {
+            document.getElementById("scrolltop").style.display = "block";
+        } else {
+            document.getElementById("scrolltop").style.display = "none";
+        }
+    }
 });
-

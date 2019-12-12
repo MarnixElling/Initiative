@@ -1,5 +1,6 @@
 $w: #ffffff;
 $gr: #b9b9b9;
+$xlgr: #808080;
 $lgr: #383838;
 $b: #000000;
 
@@ -23,6 +24,9 @@ $b: #000000;
 }
 %ts {
     text-shadow: 2px 2px 3px $gr; 
+}
+%tsb {
+    text-shadow: 2px 2px 3px $b; 
 }
 %lst {
     list-style-type: none;
