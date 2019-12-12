@@ -6,5 +6,4 @@
     <link rel="shortcut icon" type="image/x-icon" href="media/logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    
 </head>

@@ -378,7 +378,6 @@ body {
         text-align: center;
         .employee {
             width: 30%;
-            background-color: rgba(43, 43, 43, 0.11);
             padding-top: 50px;
             img {
                 width: 60%;
@@ -418,6 +417,21 @@ body {
         .button {
             margin-top: 25px;
             float: right;
+            padding: 5px;
+            font-size: 20px;
+            background-color: transparent;
+        }
+        .button:hover {
+            cursor: pointer;
+            border: 1px solid $w !important;
+            color: $w !important;
+        }
+        .error {
+            color: #FF1800;
+            font-size: 20px;
+            p {
+                margin-top: 75px;
+            }
         }
     }
     #partners {

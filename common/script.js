@@ -161,4 +161,11 @@ $(document).ready(function(){
         $(".english").removeClass("selected");
         $(".german").addClass("selected");
     });
+    $('#form').on('submit', function(e) {
+        if ($('.email1').val() !== $('.email2').val()) {
+            e.preventDefault();
+            $('.error').append('<p>Emails komen niet overheen!</p>')
+        }
+    });
 });
+

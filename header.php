@@ -59,7 +59,7 @@
                     <div class="col-lg-4 col-md-4">
                         <h1>INITIATIVE™</h1>
                         Want met teamwork kom je het verst!
-                        <div class="button" style="background-color: <?php echo $color2; ?>; border: 2px solid <?php echo $row['color3']; ?>;">
+                        <div class="button" style="border: 2px solid <?php echo $color3; ?>;">
                             <a href="#contact">Start Meteen</a>
                         </div>
                     </div>

@@ -16,17 +16,29 @@
         <div class="row footer" style="color: <?php echo $color4; ?>;">
             <div class="col-lg-4 col-md-4 flist">
                 <ul>
-                    <li class="top">Support</li>
-                    <li>Veel gestelde vragen</li>
-                    <li>Email</li>
-                    <li>Telefoon</li>
+                    <li class="top">Veel gestelde vragen</li>
+                    <li><i class="fas fa-chevron-right"></i> Kan ik een domein kopen via INITIATIVE?</li>
+                    <li><i class="fas fa-chevron-right"></i> Is het mogelijk om mijn website hosten via INITIATIVE?</li>
+                    <li><i class="fas fa-chevron-right"></i> Wat als ik mijn website ergens anders wil hosten?</li>
+                    <li><i class="fas fa-chevron-right"></i> Bekijk meer</li>
                 </ul>
                 <hr>
             </div>
             <div class="col-lg-4 col-md-4 flist">
+                <ul>
+                    <li class="top">Ik wil graag bellen</li>
+                    <li><i class="fas fa-chevron-right"></i> Niels Perdon: +31 06 3334 9194</li>
+                    <li><i class="fas fa-chevron-right"></i> Marnix Elling: +31 06 3937 6969</li>
+                </ul>
                 <hr>
             </div>
             <div class="col-lg-4 col-md-4 flist">
+                <ul>
+                    <li class="top">Ik wil graag een email sturen</li>
+                    <li><i class="fas fa-chevron-right"></i> Ik wil een support email sturen</li>
+                    <li><i class="fas fa-chevron-right"></i> Ik zou een partnership willen bespreken</li>
+                    <li><i class="fas fa-chevron-right"></i> Ik zou graag zaken willen doen</li>
+                </ul>
             </div>
         </div>
     </div>
