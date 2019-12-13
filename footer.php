@@ -16,7 +16,7 @@
         <div class="row footer" style="color: <?php echo $color4; ?>;">
             <div class="col-lg-4 col-md-4 flist">
                 <ul>
-                    <li class="top" class="lang" key="vragen">Veel gestelde vragen</li>
+                    <li class="top lang" key="vragen">Veel gestelde vragen</li>
                     <li class="lang" key="domein"><i class="fas fa-chevron-right"></i> Kan ik een domein kopen via INITIATIVE?</li>
                     <li class="lang" key="hosten"><i class="fas fa-chevron-right"></i> Is het mogelijk om mijn website hosten via INITIATIVE?</li>
                     <li class="lang" key="ergens anders"><i class="fas fa-chevron-right"></i> Wat als ik mijn website ergens anders wil hosten?</li>
@@ -26,7 +26,7 @@
             </div>
             <div class="col-lg-4 col-md-4 flist" id="call">
                 <ul>
-                    <li class="top" class="lang" key="bellen">Ik wil graag bellen</li>
+                    <li class="top lang" key="bellen">Ik wil graag bellen</li>
                     <li><i class="fas fa-chevron-right"></i> Niels Perdon: +31 06 3334 9194</li>
                     <li><i class="fas fa-chevron-right"></i> Marnix Elling: +31 06 3937 6969</li>
                 </ul>
@@ -34,7 +34,7 @@
             </div>
             <div class="col-lg-4 col-md-4 flist">
                 <ul>
-                    <li class="top" class="lang" key="email sturen">Ik wil graag een email sturen</li>
+                    <li class="top lang" key="email sturen">Ik wil graag een email sturen</li>
                     <li class="lang" key="support email"><i class="fas fa-chevron-right"></i> Ik wil een support email sturen</li>
                     <li class="lang" key="partnership"><i class="fas fa-chevron-right"></i> Ik zou een partnership willen bespreken</li>
                     <li class="lang" key="zaken doen"><i class="fas fa-chevron-right"></i> Ik zou graag zaken willen doen</li>
