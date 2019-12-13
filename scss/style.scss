@@ -613,7 +613,7 @@ body {
         @extend %fnormal;
     }
     footer {
-        background-color: #252525;
+        background-image: url("../media/background-footer.png");
         height: 300px;
         width: 100%;
         position: relative;
@@ -655,7 +655,7 @@ body {
     .end {
         position: relative;
         z-index: 2;
-        background-color: #2b2b2b;
+        background-image: url("../media/background-details.png");
         height: 100px;
         width: 100%;
         @extend %space;
