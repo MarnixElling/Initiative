@@ -1,13 +1,18 @@
-<header>
+<header id="top">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12 col-md-12 header">
                 <div class="row nav">
+                    <style>
+                        .grow {
+                            background-color: <?php echo $color1; ?> !important;
+                        }
+                    </style>
                     <div class="col-lg-1 col-md-1 d-flex justify-content-center align-items-center">
                         <!-- leftside -->
-                        <img id="top" src="media/glogo.png">
+                        <img src="media/glogo.png">
                     </div>
-                    <div class="col-lg-10 col-md-10 d-flex justify-content-center align-items-center">
+                    <div class="col-lg-10 col-md-10 d-flex justify-content-center align-items-center navigation">
                         <ul>
                             <li><a href="#skills">vaardigheden</a></li>
                             <li><a href="#about">over ons</a></li>

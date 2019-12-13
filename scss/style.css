@@ -11,6 +11,10 @@ body header .header .front, body #about h1 {
   font-family: 'Courgette', cursive;
 }
 
+body header .header .front .button, body .employees .employee, body .contact .button {
+  font-family: 'Rubik', sans-serif;
+}
+
 /* random globals */
 body header .header, body header .header .nav img, body header .header .nav ul, body header .header .settingsmenu .sidebar .content ul li img, body header .header .front h1, body #about h1, body footer .container-fluid .footer .flist hr, body .end, body .end .widgets ul, body .end hr {
   margin: 0;
@@ -276,9 +280,23 @@ body header .header .nav .settings .active {
   text-shadow: none;
 }
 
+body header .header .grow {
+  position: fixed;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+body header .header .grow img {
+  display: none;
+}
+
 body header .header .settingsmenu {
   position: absolute;
   float: right;
+}
+
+body header .header .settingsmenu .change {
+  margin-top: 0vh !important;
 }
 
 body header .header .settingsmenu .sidebar {
@@ -374,7 +392,6 @@ body header .header .front .button {
   width: 40%;
   margin-left: 30%;
   line-height: 45px;
-  font-family: 'Rubik', sans-serif;
 }
 
 body header .header .front .mouse {
@@ -449,6 +466,10 @@ body .main-content {
   z-index: 2;
   margin-top: 100vh;
   background-image: url("../media/background_content.png");
+}
+
+body .carbon {
+  background-image: url("../media/carbonfiber.png");
 }
 
 body #skills {

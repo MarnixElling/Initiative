@@ -149,9 +149,19 @@ body {
                     }
                 }
             }
+            .grow {
+                position: fixed;
+                transition: all 0.5s ease;
+                img {
+                    display: none;
+                }
+            }
             .settingsmenu {
                 position: absolute;
                 float: right;
+                .change {
+                    margin-top: 0vh !important;
+                }
                 .sidebar {
                     background-color: $w;
                     width: 30%;
@@ -240,7 +250,7 @@ body {
                     width: 40%;
                     margin-left: 30%;
                     line-height: 45px;
-                    font-family: 'Rubik', sans-serif;
+                    @extend %fbutton;
                     @extend %tsb;
                 }
                 .mouse {
@@ -310,6 +320,9 @@ body {
         z-index: 2;
         margin-top: 100vh;
         background-image: url("../media/background_content.png");
+    }
+    .carbon {
+        background-image: url("../media/carbonfiber.png");
     }
     #skills {
         color: $w;
@@ -477,6 +490,7 @@ body {
         .employee {
             width: 30%;
             padding-top: 50px;
+            @extend %fbutton;
             img {
                 width: 60%;
                 margin-bottom: 20px;
@@ -520,6 +534,7 @@ body {
             font-size: 20px;
             background-color: transparent;
             transition: all 0.5s ease;
+            @extend %fbutton;
         }
         .button:hover {
             border: 1px solid $w !important;

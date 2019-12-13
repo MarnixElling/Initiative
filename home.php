@@ -22,12 +22,12 @@
         ?>
             <?php include ('header.php'); ?>
             <div class="container-fluid main-content">
-                <div class="row shadow" style="background-color: <?php echo $color1 ?>;">
+                <div class="row shadow carbon">
                     <div class="col-lg-1 col-md-1"></div>
                     <div class="col-lg-10 col-md-10">
                         <div class="row" id="skills">
                             <div class="col-lg-3 col-md-3 skill">
-                                <div class="circle" style="background-color: <?php echo $color3 ?>;">
+                                <div class="circle shadow" style="background-color: <?php echo $color3 ?>;">
                                     <div class="circle2">
                                         <i class="fas fa-laptop-code"></i>
                                     </div>
@@ -36,7 +36,7 @@
                                 <div class="showmore frontend">Zie meer <i class="fas fa-chevron-down arrow1"></i></div>
                             </div>
                             <div class="col-lg-3 col-md-3 skill">
-                                <div class="circle" style="background-color: <?php echo $color3 ?>;">
+                                <div class="circle shadow" style="background-color: <?php echo $color3 ?>;">
                                     <div class="circle2">
                                         <i class="far fa-file-code"></i>
                                     </div>
@@ -45,7 +45,7 @@
                                 <div class="showmore backend">Zie meer <i class="fas fa-chevron-down arrow2"></i></div>
                             </div>
                             <div class="col-lg-3 col-md-3 skill">
-                                <div class="circle" style="background-color: <?php echo $color3 ?>;">
+                                <div class="circle shadow" style="background-color: <?php echo $color3 ?>;">
                                     <div class="circle2">
                                         <i class="fas fa-paint-brush"></i>
                                     </div>
@@ -54,7 +54,7 @@
                                 <div class="showmore design">Zie meer <i class="fas fa-chevron-down arrow3"></i></div>
                             </div>
                             <div class="col-lg-3 col-md-3 skill">
-                                <div class="circle" style="background-color: <?php echo $color3 ?>;">
+                                <div class="circle shadow" style="background-color: <?php echo $color3 ?>;">
                                     <div class="circle2">
                                         <i class="fas fa-user-tie"></i>
                                     </div>

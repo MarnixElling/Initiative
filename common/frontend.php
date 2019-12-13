@@ -8,7 +8,7 @@ if ($result->num_rows > 0) {
 <div class="graph-bar front-end inactive" style="width: <?php echo $row['kennis']; ?>%">
     <i class="far fa-question-circle explain <?php echo $row['taal']; echo $row['id']; ?>"></i> <?php echo $row['taal']; ?> - <?php echo $row['kennis']; ?>%
 </div>
-<div class="code-description <?php echo $row['taal']; ?>" style="background-color: <?php echo $color3 ?>;">
+<div class="code-description shadow <?php echo $row['taal']; ?>" style="background-color: <?php echo $color3 ?>;">
     <?php echo $row['uitleg']; ?>
 </div>
 <?php

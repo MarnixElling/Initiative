@@ -186,4 +186,20 @@ $(document).ready(function(){
             document.getElementById("scrolltop").style.display = "none";
         }
     }
+    /* HEADER SCROLL CHECKER */
+    $(function(){
+        var shrinkHeader = 150;
+        $(window).scroll(function() {
+            var scroll = getCurrentScroll();
+            if (scroll > shrinkHeader){
+                $('.nav').addClass('grow');
+            } else if (scroll < shrinkHeader){
+                $('.nav').removeClass('grow');
+            }
+        });
+    });
+    function getCurrentScroll() {
+        return window.pageYOffset ||
+        document.documentElement.scrollTop;
+    }
 });
