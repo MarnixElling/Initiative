@@ -9,9 +9,9 @@
                     </div>
                     <div class="col-lg-10 col-md-10 d-flex justify-content-center align-items-center">
                         <ul>
-                            <li><a href="#skills">vaardigheden</a></li>
-                            <li><a href="#about">over ons</a></li>
-                            <li><a href="#partners">partners</a></li>
+                            <li><a href="#skills" class="lang" key="vaardigheden">vaardigheden</a></li>
+                            <li><a href="#about" class="lang" key="over">over ons</a></li>
+                            <li><a href="#partners" class="lang" key="partners">partners</a></li>
                             <li>
                                 <div class="dropdown">
                                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -19,8 +19,8 @@
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                         <a class="dropdown-item" href="">FAQ</a>
-                                        <a class="dropdown-item" href="#contact">Email</a>
-                                        <a class="dropdown-item" href="#call">Telefoon</a>
+                                        <a class="dropdown-item" href="#contact" class="lang" key="email">Email</a>
+                                        <a class="dropdown-item" href="#call" class="lang" key="telefoon">Telefoon</a>
                                     </div>
                                 </div>
                             </li>
@@ -36,16 +36,16 @@
                 <div class="row settingsmenu">
                     <div class="sidebar shadow">
                         <div class="content">
-                            <p>settings</p>
+                            <p class="lang" key="settings">settings</p>
                             <ul>
-                                <li class="top">Kleuren Schema:</li>
+                                <li class="top" class="lang" key="Kleuren">Kleuren Schema:</li>
                                 <li><br></li>
-                                <li><a href="home.php?id=1">Business <img src="media/kleurenschema1.png" alt="business"></a></li>
-                                <li><a href="home.php?id=2">Friendly <img src="media/kleurenschema2.png" alt="friendly"></a></li>
-                                <li><a href="home.php?id=3">Warm <img src="media/kleurenschema3.png" alt="warm"></a></li>
+                                <li><a href="home.php?id=1" class="lang" key="business">Business <img src="media/kleurenschema1.png" alt="business"></a></li>
+                                <li><a href="home.php?id=2" class="lang" key="friendly">Friendly <img src="media/kleurenschema2.png" alt="friendly"></a></li>
+                                <li><a href="home.php?id=3" class="lang" key="warm">Warm <img src="media/kleurenschema3.png" alt="warm"></a></li>
                             </ul>
                             <ul class="languages">
-                                <li class="top">Taal:</li>
+                                <li class="top" class="lang" key="taal">Taal:</li>
                                 <li><br></li>
                                 <li class="option"><button class="language dutch selected"><img src="media/nl.png" alt="Nederlands"></button></li>
                                 <li class="option"><button class="language english"><img src="media/uk.png" alt="English"></button></li>
@@ -58,9 +58,9 @@
                     <div class="col-lg-4 col-md-4"></div>
                     <div class="col-lg-4 col-md-4">
                         <h1>INITIATIVE™</h1>
-                        <p>Want met teamwork kom je het verst!</p>
+                        <p> class="lang" key="slogan">Want met teamwork kom je het verst!</P>
                         <div class="button shadow" style="border: 2px solid <?php echo $color3; ?>;">
-                            <a href="#contact">Start Meteen</a>
+                            <a href="#contact" class="lang" key="start">Start Meteen</a>
                         </div>
                         <div class="mouse d-flex justify-content-center">
                             <a href="#skills">
