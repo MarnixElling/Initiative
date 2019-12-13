@@ -1,6 +1,6 @@
     <div class="row contact-info shadow" style="border-top: 2px solid <?php echo $color3; ?>; color: <?php echo $color3; ?>;">
         <div class="col-lg-4 col-md-4 d-flex justify-content-center align-items-center">
-            <span>Veel gestelde vragen &nbsp; <i class="far fa-question-circle"></i></span>
+            <span class="lang" key="vragen">Veel gestelde vragen &nbsp; <i class="far fa-question-circle"></i></span>
         </div>
         <div class="col-lg-4 col-md-4 d-flex justify-content-center align-items-center">
             <span>+31 06 3937 6969 / +31 06 3334 9194 &nbsp; <i class="fas fa-phone"></i></span>
@@ -16,17 +16,17 @@
         <div class="row footer" style="color: <?php echo $color4; ?>;">
             <div class="col-lg-4 col-md-4 flist">
                 <ul>
-                    <li class="top">Veel gestelde vragen</li>
-                    <li><i class="fas fa-chevron-right"></i> Kan ik een domein kopen via INITIATIVE?</li>
-                    <li><i class="fas fa-chevron-right"></i> Is het mogelijk om mijn website hosten via INITIATIVE?</li>
-                    <li><i class="fas fa-chevron-right"></i> Wat als ik mijn website ergens anders wil hosten?</li>
-                    <li><i class="fas fa-chevron-right"></i> Bekijk meer</li>
+                    <li class="top" class="lang" key="vragen">Veel gestelde vragen</li>
+                    <li class="lang" key="domein"><i class="fas fa-chevron-right"></i> Kan ik een domein kopen via INITIATIVE?</li>
+                    <li class="lang" key="hosten"><i class="fas fa-chevron-right"></i> Is het mogelijk om mijn website hosten via INITIATIVE?</li>
+                    <li class="lang" key="ergens anders"><i class="fas fa-chevron-right"></i> Wat als ik mijn website ergens anders wil hosten?</li>
+                    <li class="lang" key="bekijk"><i class="fas fa-chevron-right"></i> Bekijk meer</li>
                 </ul>
                 <hr>
             </div>
             <div class="col-lg-4 col-md-4 flist" id="call">
                 <ul>
-                    <li class="top">Ik wil graag bellen</li>
+                    <li class="top" class="lang" key="bellen">Ik wil graag bellen</li>
                     <li><i class="fas fa-chevron-right"></i> Niels Perdon: +31 06 3334 9194</li>
                     <li><i class="fas fa-chevron-right"></i> Marnix Elling: +31 06 3937 6969</li>
                 </ul>
@@ -34,10 +34,10 @@
             </div>
             <div class="col-lg-4 col-md-4 flist">
                 <ul>
-                    <li class="top">Ik wil graag een email sturen</li>
-                    <li><i class="fas fa-chevron-right"></i> Ik wil een support email sturen</li>
-                    <li><i class="fas fa-chevron-right"></i> Ik zou een partnership willen bespreken</li>
-                    <li><i class="fas fa-chevron-right"></i> Ik zou graag zaken willen doen</li>
+                    <li class="top" class="lang" key="email sturen">Ik wil graag een email sturen</li>
+                    <li class="lang" key="support email"><i class="fas fa-chevron-right"></i> Ik wil een support email sturen</li>
+                    <li class="lang" key="partnership"><i class="fas fa-chevron-right"></i> Ik zou een partnership willen bespreken</li>
+                    <li class="lang" key="zaken doen"><i class="fas fa-chevron-right"></i> Ik zou graag zaken willen doen</li>
                 </ul>
             </div>
         </div>
@@ -58,7 +58,7 @@
     <hr>
     <div class="row credits">
         <div class="col-lg-12 col-md-12">
-            <span>Copyright © 2020 INITIATIVE. All rights reserved.</span>
+            <span class="lang" key="copyright">Copyright © 2020 INITIATIVE. All rights reserved.</span>
         </div>
     </div>
 </div>
