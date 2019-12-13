@@ -3,11 +3,6 @@
         <div class="row">
             <div class="col-lg-12 col-md-12 header">
                 <div class="row nav">
-                    <style>
-                        .grow {
-                            background-color: <?php echo $color1; ?> !important;
-                        }
-                    </style>
                     <div class="col-lg-1 col-md-1 d-flex justify-content-center align-items-center">
                         <!-- leftside -->
                         <img src="media/glogo.png">
@@ -38,6 +33,32 @@
                         </div>
                     </div>
                 </div>
+                <div class="grow shadow">
+                    <ul>
+                        <li><a href="#skills" class="lang" key="vaardigheden">vaardigheden</a></li>
+                        <li><a href="#about" class="lang" key="over">over ons</a></li>
+                        <li><a href="#partners" class="lang" key="partners">partners</a></li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    contact
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="">FAQ</a>
+                                    <a class="dropdown-item" href="#contact" class="lang" key="email">Email</a>
+                                    <a class="dropdown-item" href="#call" class="lang" key="telefoon">Telefoon</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="navcolor">
+                        <style>
+                            .navcolor {
+                                background-color: <?php echo $color1; ?> !important;
+                            }
+                        </style>
+                    </div>
+                </div>
                 <div class="row settingsmenu">
                     <div class="sidebar shadow">
                         <div class="content">
@@ -63,7 +84,7 @@
                     <div class="col-lg-4 col-md-4"></div>
                     <div class="col-lg-4 col-md-4">
                         <h1>INITIATIVE™</h1>
-                        <p> class="lang" key="slogan">Want met teamwork kom je het verst!</P>
+                        <p class="lang" key="slogan">Want met teamwork kom je het verst!</P>
                         <div class="button shadow" style="border: 2px solid <?php echo $color3; ?>;">
                             <a href="#contact" class="lang" key="start">Start Meteen</a>
                         </div>

@@ -188,13 +188,15 @@ $(document).ready(function(){
     }
     /* HEADER SCROLL CHECKER */
     $(function(){
-        var shrinkHeader = 150;
+        var shrinkHeader = 200;
         $(window).scroll(function() {
             var scroll = getCurrentScroll();
             if (scroll > shrinkHeader){
-                $('.nav').addClass('grow');
+                $('.navigation').addClass('invisible');
+                $('.grow').addClass('visible');
             } else if (scroll < shrinkHeader){
-                $('.nav').removeClass('grow');
+                $('.navigation').removeClass('invisible');
+                $('.grow').removeClass('visible');
             }
         });
     });
