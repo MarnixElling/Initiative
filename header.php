@@ -73,9 +73,9 @@
                             <ul class="languages">
                                 <li class="top" class="lang" key="taal">Taal:</li>
                                 <li><br></li>
-                                <li class="option"><button class="language dutch selected"><img src="media/nl.png" alt="Nederlands"></button></li>
-                                <li class="option"><button class="language english"><img src="media/uk.png" alt="English"></button></li>
-                                <li class="option"><button class="language german"><img src="media/de.png" alt="Deutsch"></button></li>   
+                                <li class="option"><button class="language dutch selected" id="nl" class="translate"><img src="media/nl.png" alt="Nederlands"></button></li>
+                                <li class="option"><button class="language english" id="en" class="translate"><img src="media/uk.png" alt="English"></button></li>
+                                <li class="option"><button class="language german" id="de" class="translate"><img src="media/de.png" alt="Deutsch"></button></li>   
                             </ul>
                         </div>
                     </div>
