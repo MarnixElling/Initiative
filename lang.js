@@ -125,14 +125,3 @@ script type = "text/javascript" >
             'copyright': 'Urheberrecht  © 2020 INITIATIVE. Alle rechte vorbehalten.'
         }
     };
-// Process translation
-$(function () {
-    $('.translate').click(function () {
-        var lang = $(this).attr('id');
-
-        $('.lang').each(function (index, item) {
-            $(this).text(arrLang[lang][$(this).attr('key')]);
-        });
-    });
-}); <
-/script>
