@@ -33,7 +33,7 @@
                                     </div>
                                 </div><br>
                                 <h2>front end</h2>
-                                <div class="showmore frontend">Zie meer <i class="fas fa-chevron-down arrow1"></i></div>
+                                <div class="showmore frontend lang" key="zie">Zie meer <i class="fas fa-chevron-down arrow1"></i></div>
                             </div>
                             <div class="col-lg-3 col-md-3 skill">
                                 <div class="circle shadow" style="background-color: <?php echo $color3 ?>;">
@@ -42,7 +42,7 @@
                                     </div>
                                 </div><br>
                                 <h2>back end</h2>
-                                <div class="showmore backend">Zie meer <i class="fas fa-chevron-down arrow2"></i></div>
+                                <div class="showmore backend lang" key="zie">Zie meer <i class="fas fa-chevron-down arrow2"></i></div>
                             </div>
                             <div class="col-lg-3 col-md-3 skill">
                                 <div class="circle shadow" style="background-color: <?php echo $color3 ?>;">
@@ -51,7 +51,7 @@
                                     </div>
                                 </div><br>
                                 <h2>design</h2>
-                                <div class="showmore design">Zie meer <i class="fas fa-chevron-down arrow3"></i></div>
+                                <div class="showmore design class" key="zie">Zie meer <i class="fas fa-chevron-down arrow3"></i></div>
                             </div>
                             <div class="col-lg-3 col-md-3 skill">
                                 <div class="circle shadow" style="background-color: <?php echo $color3 ?>;">
@@ -59,8 +59,8 @@
                                         <i class="fas fa-user-tie"></i>
                                     </div>
                                 </div><br>
-                                <h2>Professionaliteit</h2>
-                                <div class="showmore prof">Zie meer <i class="fas fa-chevron-down arrow4"></i></div>
+                                <h2 class="lang" key="prof">Professionaliteit</h2>
+                                <div class="showmore prof lang" key="zie">Zie meer <i class="fas fa-chevron-down arrow4"></i></div>
                             </div>
                         </div>
                     </div>
@@ -71,7 +71,7 @@
                         <div class="col-lg-2 col-md-2"></div>
                         <div class="col-lg-8 col-md-8">
                             <div class="graph">
-                                <h2>De kennis die wij bezitten om te maken wat jij nodig hebt.</h2>
+                                <h2 class="lang" key="kennis">De kennis die wij bezitten om te maken wat jij nodig hebt.</h2>
                                 <?php include ('common/frontend.php'); ?>
                             </div>
                         </div>
@@ -83,7 +83,7 @@
                         <div class="col-lg-2 col-md-2"></div>
                         <div class="col-lg-8 col-md-8">
                             <div class="graph">
-                                <h2>De kennis die wij bezitten om te maken wat jij nodig hebt.</h2>
+                                <h2 class="lang" key="kennis">De kennis die wij bezitten om te maken wat jij nodig hebt.</h2>
                                 <?php include ('common/backend.php'); ?>
                             </div>
                         </div>
@@ -111,7 +111,7 @@
                 <div class="row" id="about">
                     <div class="col-lg-3 col-md-3"></div>
                     <div class="col-lg-6 col-md-6">
-                        <h1 style="color: <?php echo $color3 ?>;">Wie zijn wij?</h1><br>
+                        <h1 style="color: <?php echo $color3 ? class="lang" key="wie">;">Wie zijn wij?</h1><br>
                         <hr style="background-color: <?php echo $color2 ?>;">
                         <span style="color: <?php echo $color3 ?>;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</span>
                     </div>
@@ -120,7 +120,7 @@
                 <div class="row employees">
                     <div class="col-lg-2 col-md-2"></div>
                     <div class="col-lg-8 col-md-8">
-                        <h2 style="color: <?php echo $color3; ?>;">Het team:</h2><br>
+                        <h2 style="color: <?php echo $color3; ?>;" class="team" key="team">Het team:</h2><br>
                         <hr><br>
                         <div class="d-flex justify-content-around">
                             <?php
@@ -150,14 +150,14 @@
                 <div class="row contact" id="contact">
                     <div class="col-lg-2 col-md-2"></div>
                     <div class="col-lg-8 col-md-8 test">
-                        <h2 style="color: <?php echo $color3; ?>;">Email sturen:</h2><br>
+                        <h2 style="color: <?php echo $color3; ?>;" class="lang" key="Email sturen">Email sturen:</h2><br>
                         <form id="form" action="common/contact.php" method="post">
-                            <input tabindex="1" class="name" type="text" name="name" placeholder="Voornaam" required>
-                            <input tabindex="2" class="surname" type="text" name="name" placeholder="Achternaam" required><br>
-                            <input tabindex="4" class="mail email2" type="email" name="email2" placeholder="Herhaal Email" required>
-                            <input tabindex="3" class="mail email1" type="email" name="email1" placeholder="Email" required><br>
+                            <input tabindex="1" class="name lang" key="voornaam" type="text" name="name" placeholder="Voornaam" required>
+                            <input tabindex="2" class="surname lang" key="achternaam" type="text" name="name" placeholder="Achternaam" required><br>
+                            <input tabindex="4" class="mail email2 lang" key="herhaal" type="email" name="email2" placeholder="Herhaal Email" required>
+                            <input tabindex="3" class="mail email1 lang" key="email" type="email" name="email1" placeholder="Email" required><br>
                             <div class="error"></div>
-                            <input tabindex="5" class="message" type="textarea" name="message" placeholder="Bericht" required><br>
+                            <input tabindex="5" class="message lang" key="bericht" type="textarea" name="message" placeholder="Bericht" required><br>
                             <button type="submit" style="color: <?php echo $color3 ?>; border: 1px solid <?php echo $color3 ?>;" class="button" type="submit" value="submit">Send your message</button>
                             <style>
                                 .button:hover {
@@ -172,7 +172,7 @@
                 <div class="row" id="partners">
                     <div class="col-lg-2 col-md-2"></div>
                     <div class="col-lg-8 col-md-8">
-                        <h2 style="color: <?php echo $color3 ?>;">Partners:</h2><br><br>
+                        <h2 style="color: <?php echo $color3 ?>;" class="lang" key="partners">Partners:</h2><br><br>
                         <div class="row" class="d-flex justify-content-center">
                             <div class="col-lg-3 col-md-3">
                                 <a href="http://supafresh.nl"><img src="media/logo-SupaFresh.png" alt="SupaFresh" width="35%"></a>

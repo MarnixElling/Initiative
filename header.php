@@ -64,7 +64,7 @@
                         <div class="content">
                             <p class="lang" key="settings">instellingen</p>
                             <ul>
-                                <li class="top" class="lang" key="Kleuren">Kleuren Schema:</li>
+                                <li class="top lang" key="Kleuren">Kleuren Schema:</li>
                                 <li><br></li>
                                 <li><a href="home.php?id=1" class="lang" key="business">Business </a><img src="media/kleurenschema1.png" alt="business"></li>
                                 <li><a href="home.php?id=2" class="lang" key="friendly">Friendly </a><img src="media/kleurenschema2.png" alt="friendly"></li>
