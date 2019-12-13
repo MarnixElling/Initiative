@@ -111,9 +111,9 @@
                 <div class="row" id="about">
                     <div class="col-lg-3 col-md-3"></div>
                     <div class="col-lg-6 col-md-6">
-                        <h1 style="color: <?php echo $color3 ? class="lang" key="wie">;">Wie zijn wij?</h1><br>
-                        <hr style="background-color: <?php echo $color2 ?>;">
-                        <span style="color: <?php echo $color3 ?>;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</span>
+                        <h1 style="color: <?php echo $color3; ?>;" class="lang" key="wie">Wie zijn wij?</h1><br>
+                        <hr style="background-color: <?php echo $color2; ?>;">
+                        <span style="color: <?php echo $color3; ?>;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</span>
                     </div>
                     <div class="col-lg-3 col-md-3"></div>
                 </div>
