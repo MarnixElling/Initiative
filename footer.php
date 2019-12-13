@@ -58,7 +58,7 @@
     <hr>
     <div class="row credits">
         <div class="col-lg-12 col-md-12">
-            <span class="lang" key="copyright">Copyright © 2020 INITIATIVE. All rights reserved.</span>
+            <span class="lang" key="copyright">Auteursrechten © 2020 INITIATIVE. Alle rechten voorbehouden.</span>
         </div>
     </div>
 </div>

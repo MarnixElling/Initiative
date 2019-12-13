@@ -204,7 +204,6 @@ $(document).ready(function(){
         return window.pageYOffset ||
         document.documentElement.scrollTop;
     }
-    // Process translation
     $(function () {
         $('.translate').click(function () {
             var lang = $(this).attr('id');
@@ -213,5 +212,5 @@ $(document).ready(function(){
                 $(this).text(arrLang[lang][$(this).attr('key')]);
             });
         });
-    }); 
+    });
 });

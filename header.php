@@ -62,20 +62,20 @@
                 <div class="row settingsmenu">
                     <div class="sidebar shadow">
                         <div class="content">
-                            <p class="lang" key="settings">settings</p>
+                            <p class="lang" key="settings">instellingen</p>
                             <ul>
                                 <li class="top" class="lang" key="Kleuren">Kleuren Schema:</li>
                                 <li><br></li>
-                                <li><a href="home.php?id=1" class="lang" key="business">Business <img src="media/kleurenschema1.png" alt="business"></a></li>
-                                <li><a href="home.php?id=2" class="lang" key="friendly">Friendly <img src="media/kleurenschema2.png" alt="friendly"></a></li>
-                                <li><a href="home.php?id=3" class="lang" key="warm">Warm <img src="media/kleurenschema3.png" alt="warm"></a></li>
+                                <li><a href="home.php?id=1" class="lang" key="business">Business </a><img src="media/kleurenschema1.png" alt="business"></li>
+                                <li><a href="home.php?id=2" class="lang" key="friendly">Friendly </a><img src="media/kleurenschema2.png" alt="friendly"></li>
+                                <li><a href="home.php?id=3" class="lang" key="warm">Warm </a><img src="media/kleurenschema3.png" alt="warm"></li>
                             </ul>
                             <ul class="languages">
-                                <li class="top" class="lang" key="taal">Taal:</li>
+                                <li class="top"><span class="lang" key="taal">Taal:</span></li>
                                 <li><br></li>
-                                <li class="option"><button class="language dutch selected" id="nl" class="translate"><img src="media/nl.png" alt="Nederlands"></button></li>
-                                <li class="option"><button class="language english" id="en" class="translate"><img src="media/uk.png" alt="English"></button></li>
-                                <li class="option"><button class="language german" id="de" class="translate"><img src="media/de.png" alt="Deutsch"></button></li>   
+                                <li class="option"><button class="translate language dutch selected" id="nl"><img src="media/nl.png" alt="Nederlands"></button></li>
+                                <li class="option"><button class="translate language english" id="en"><img src="media/uk.png" alt="English"></button></li>
+                                <li class="option"><button class="translate language german" id="de"><img src="media/de.png" alt="Deutsch"></button></li>   
                             </ul>
                         </div>
                     </div>

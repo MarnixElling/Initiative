@@ -1,5 +1,3 @@
-<
-script type = "text/javascript" >
     var arrLang = {
         'en': {
 
@@ -14,9 +12,9 @@ script type = "text/javascript" >
             'business': 'business',
             'friendly': 'friendly',
             'warm': 'Warm',
-            'taal': 'language',
+            'taal': 'Language',
             'slogan': 'because with teamwork you get the furthest!',
-            'start': 'start immediately'
+            'start': 'start immediately',
             //home.php
             'zie': 'See more',
             'prof': 'Professionality',
@@ -58,7 +56,7 @@ script type = "text/javascript" >
             'warm': 'Warm',
             'taal': 'Taal',
             'slogan': 'Want met teamwork kom je het verst!',
-            'start': 'Start Meteen'
+            'start': 'Start Meteen',
             //home.php
             'zie': 'Zie meer',
             'prof': 'Professionaliteit',
@@ -99,7 +97,7 @@ script type = "text/javascript" >
             'warm': 'Warm',
             'taal': 'sprache',
             'slogan': 'Denn mit Teamwork kommen Sie am weitesten!',
-            'start': 'starte sofort'
+            'start': 'starte sofort',
             //home.php
             'zie': 'mehr sehen',
             'prof': 'Professionalität',
