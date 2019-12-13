@@ -239,8 +239,8 @@ body {
                     height: 50px;
                     width: 40%;
                     margin-left: 30%;
-                    line-height: 40px;
-                    @extend %fnormal;
+                    line-height: 45px;
+                    font-family: 'Rubik', sans-serif;
                     @extend %tsb;
                 }
                 .mouse {
@@ -309,7 +309,7 @@ body {
         position: relative;
         z-index: 2;
         margin-top: 100vh;
-        background-color: $w;
+        background-image: url("../media/background_content.png");
     }
     #skills {
         color: $w;

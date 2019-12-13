@@ -1,12 +1,12 @@
     <div class="row contact-info shadow" style="border-top: 2px solid <?php echo $color3; ?>; color: <?php echo $color3; ?>;">
         <div class="col-lg-4 col-md-4 d-flex justify-content-center align-items-center">
-            Veel gestelde vragen &nbsp; <i class="far fa-question-circle"></i>
+            <span>Veel gestelde vragen &nbsp; <i class="far fa-question-circle"></i></span>
         </div>
         <div class="col-lg-4 col-md-4 d-flex justify-content-center align-items-center">
-            +31 06 3937 6969 / +31 06 3334 9194 &nbsp; <i class="fas fa-phone"></i>
+            <span>+31 06 3937 6969 / +31 06 3334 9194 &nbsp; <i class="fas fa-phone"></i></span>
         </div>
         <div class="col-lg-4 col-md-4 d-flex justify-content-center align-items-center">
-            support@initiative-dev.com &nbsp; <i class="far fa-envelope"></i>
+            <span>support@initiative-dev.com &nbsp; <i class="far fa-envelope"></i></span>
         </div>
     </div>
 </div>
@@ -58,7 +58,7 @@
     <hr>
     <div class="row credits">
         <div class="col-lg-12 col-md-12">
-            Copyright © 2020 INITIATIVE. All rights reserved.
+            <span>Copyright © 2020 INITIATIVE. All rights reserved.</span>
         </div>
     </div>
 </div>
