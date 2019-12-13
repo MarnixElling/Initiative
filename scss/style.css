@@ -54,13 +54,11 @@ body .row .a-details .graph, body .row .b-details .graph {
 }
 
 body .row .a-details .graph .graph-bar, body .row .b-details .graph .graph-bar {
-  background-color: #000000;
+  background-image: url("../media/carbonfiber.png");
   color: #ffffff;
   padding: 10px;
   margin-top: 10px;
   border: 1px solid #ffffff;
-  -webkit-box-shadow: 0px 0px 10px 0px #ffffff;
-          box-shadow: 0px 0px 10px 0px #ffffff;
 }
 
 @-webkit-keyframes COGWHEEL {
@@ -605,7 +603,7 @@ body .row .explanation {
 body .row .a-details {
   opacity: 0;
   width: 100%;
-  background-color: #000000;
+  background-image: url("../media/background-details.png");
 }
 
 body .row .a-details .graph h2 {
@@ -626,7 +624,7 @@ body .row .a-details .graph .inactive {
 body .row .b-details {
   opacity: 0;
   width: 100%;
-  background-color: #000000;
+  background-image: url("../media/background-details.png");
 }
 
 body .row .b-details .graph h2 {
@@ -647,13 +645,13 @@ body .row .b-details .graph .inactive {
 body .row .c-details {
   display: none;
   width: 100%;
-  background-color: #000000;
+  background-image: url("../media/background-details.png");
 }
 
 body .row .d-details {
   display: none;
   width: 100%;
-  background-color: #000000;
+  background-image: url("../media/background-details.png");
 }
 
 body .row .shown {

@@ -47,11 +47,10 @@ $b: #000000;
     width: 100%;
 }
 %graph-bar {
-    background-color: $b;
+    background-image: url('../media/carbonfiber.png');
     color: $w;
     padding: 10px;
     margin-top: 10px;
     border: 1px solid $w;
-    box-shadow: 0px 0px 10px 0px $w;
     @extend %ts;
 }

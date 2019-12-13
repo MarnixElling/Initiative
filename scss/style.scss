@@ -445,7 +445,7 @@ body {
         .a-details {
             opacity: 0;
             width: 100%;
-            background-color: $b;
+            background-image: url('../media/background-details.png');
             .graph {
                 @extend %graph;
                 h2 {
@@ -466,7 +466,7 @@ body {
         .b-details {
             opacity: 0;
             width: 100%;
-            background-color: $b;
+            background-image: url('../media/background-details.png');
             .graph {
                 @extend %graph;
                 h2 {
@@ -487,7 +487,7 @@ body {
         .c-details {
             display: none;
             width: 100%;
-            background-color: $b;
+            background-image: url('../media/background-details.png');
             @extend %fnormal;
             h2 {
                 @extend %ftitle;
@@ -496,7 +496,7 @@ body {
         .d-details {
             display: none;
             width: 100%;
-            background-color: $b;
+            background-image: url('../media/background-details.png');
             @extend %fnormal;
             h2 {
                 @extend %ftitle;
