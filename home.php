@@ -94,7 +94,11 @@
                     <div class="c-details">
                         <div class="col-lg-2 col-md-2"></div>
                         <div class="col-lg-8 col-md-8">
-                            
+                            <div class="graph">
+                                <h2 class="lang" key="designtitle">Interactieve vormgeving.</h2>
+                                <span class="lang" key="designtekst">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</span><br><br>
+                                <span class="lang" key="designtekst2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</span>
+                            </div>
                         </div>
                         <div class="col-lg-2 col-md-2"></div>
                     </div>
@@ -103,7 +107,11 @@
                     <div class="d-details">
                         <div class="col-lg-2 col-md-2"></div>
                         <div class="col-lg-8 col-md-8">
-                            
+                            <div class="graph">
+                                <h2 class="lang" key="proftitle">Professionaliteit en ondernemend gedrag.</h2>
+                                <span class="lang" key="proftekst">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</span><br><br>
+                                <span class="lang" key="proftekst2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</span>
+                            </div>
                         </div>
                         <div class="col-lg-2 col-md-2"></div>
                     </div>

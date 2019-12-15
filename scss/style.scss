@@ -489,8 +489,14 @@ body {
             width: 100%;
             background-image: url('../media/background-details.png');
             @extend %fnormal;
-            h2 {
-                @extend %ftitle;
+            .graph {
+                @extend %graph;
+                color: $gr;
+                font-size: 20px;
+                h2 {
+                    @extend %ftitle;
+                    color: $w;
+                }
             }
         }
         .d-details {
@@ -498,8 +504,14 @@ body {
             width: 100%;
             background-image: url('../media/background-details.png');
             @extend %fnormal;
-            h2 {
-                @extend %ftitle;
+            .graph {
+                @extend %graph;
+                color: $gr;
+                font-size: 20px;
+                h2 {
+                    @extend %ftitle;
+                    color: $w;
+                }
             }
         }
         .shown {
