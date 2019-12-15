@@ -648,6 +648,20 @@ body {
                         line-height: 70px;
                         color: $w;
                     }
+                    li {
+                        a {
+                            transition: all 0.5s ease;
+                        }
+                        a:link {
+                            color: $xlgr;
+                        }
+                        a:visited {
+                            color: $xlgr;
+                        }
+                        a:hover {
+                            color: $gr;
+                        }
+                    }
                 }
             }
         }

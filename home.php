@@ -33,7 +33,7 @@
                                     </div>
                                 </div><br>
                                 <h2>front end</h2>
-                                <div class="showmore frontend lang" key="zie">Zie meer <i class="fas fa-chevron-down arrow1"></i></div>
+                                <div class="showmore frontend"><span class="lang" key="zie">Zie meer</span> <i class="fas fa-chevron-down arrow1"></i></div>
                             </div>
                             <div class="col-lg-3 col-md-3 skill">
                                 <div class="circle shadow" style="background-color: <?php echo $color3 ?>;">
@@ -42,7 +42,7 @@
                                     </div>
                                 </div><br>
                                 <h2>back end</h2>
-                                <div class="showmore backend lang" key="zie">Zie meer <i class="fas fa-chevron-down arrow2"></i></div>
+                                <div class="showmore backend"><span class="lang" key="zie">Zie meer</span> <i class="fas fa-chevron-down arrow2"></i></div>
                             </div>
                             <div class="col-lg-3 col-md-3 skill">
                                 <div class="circle shadow" style="background-color: <?php echo $color3 ?>;">
@@ -51,7 +51,7 @@
                                     </div>
                                 </div><br>
                                 <h2>design</h2>
-                                <div class="showmore design class" key="zie">Zie meer <i class="fas fa-chevron-down arrow3"></i></div>
+                                <div class="showmore design class"><span class="lang" key="zie">Zie meer</span> <i class="fas fa-chevron-down arrow3"></i></div>
                             </div>
                             <div class="col-lg-3 col-md-3 skill">
                                 <div class="circle shadow" style="background-color: <?php echo $color3 ?>;">
@@ -60,7 +60,7 @@
                                     </div>
                                 </div><br>
                                 <h2 class="lang" key="prof">Professionaliteit</h2>
-                                <div class="showmore prof lang" key="zie">Zie meer <i class="fas fa-chevron-down arrow4"></i></div>
+                                <div class="showmore prof"><span class="lang" key="zie">Zie meer</span> <i class="fas fa-chevron-down arrow4"></i></div>
                             </div>
                         </div>
                     </div>
@@ -120,7 +120,7 @@
                 <div class="row employees">
                     <div class="col-lg-2 col-md-2"></div>
                     <div class="col-lg-8 col-md-8">
-                        <h2 style="color: <?php echo $color3; ?>;" class="team" key="team">Het team:</h2><br>
+                        <h2 style="color: <?php echo $color3; ?>;" class="lang" key="team">Het team:</h2><br>
                         <hr><br>
                         <div class="d-flex justify-content-around">
                             <?php
@@ -158,7 +158,7 @@
                             <input tabindex="3" class="mail email1 lang" key="email" type="email" name="email1" placeholder="Email" required><br>
                             <div class="error"></div>
                             <input tabindex="5" class="message lang" key="bericht" type="textarea" name="message" placeholder="Bericht" required><br>
-                            <button type="submit" style="color: <?php echo $color3 ?>; border: 1px solid <?php echo $color3 ?>;" class="button" type="submit" value="submit">Send your message</button>
+                            <button type="submit" style="color: <?php echo $color3 ?>; border: 1px solid <?php echo $color3 ?>;" class="button" type="submit" value="submit"><span class="lang" key="versturen">Verstuur bericht</span></button>
                             <style>
                                 .button:hover {
                                     background-color: <?php echo $color3; ?> !important;
@@ -198,6 +198,7 @@
         <!-- script links STARTS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="common/script.js"></script>
+        <script src="lang.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <!-- script links END -->

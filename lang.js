@@ -1,4 +1,4 @@
-    var arrLang = {
+var arrLang = {
         'en': {
 
             //header.php
@@ -14,14 +14,15 @@
             'warm': 'Warm',
             'taal': 'Language',
             'slogan': 'Because with teamwork you get the furthest!',
-            'start': 'Start immediately'
+            'start': 'Start now',
             //home.php
             'zie': 'See more',
             'prof': 'Professionality',
-            'kennis': 'The knowledge that we possess to make what you need.',
+            'kennis': 'The knowledge that we have to make what you need.',
             'wie': 'Who are we?',
-            'team': 'the Team',
+            'team': 'The Team',
             'Email sturen': 'Send email:',
+            'versturen': 'Send your message',
             'voornaam': 'Forname',
             'achternaam': 'Lastname',
             'herhaal': 'Repeat Email',
@@ -32,7 +33,7 @@
             'hosten': 'Is it possible to host my website through INITIATIVE?',
             'ergens anders': 'What if I want to host my website somewhere else?',
             'bekijk': 'View more',
-            'bellen': 'Id like to call',
+            'bellen': 'I would like to call',
             'email sturen': 'I would like to send an email',
             'support email': 'I want to send a support email',
             'partnership': 'I would like to discuss a partnership',
@@ -56,7 +57,7 @@
             'warm': 'Warm',
             'taal': 'Taal',
             'slogan': 'Want met teamwork kom je het verst!',
-            'start': 'Start Meteen',
+            'start': 'Start meteen',
             //home.php
             'zie': 'Zie meer',
             'prof': 'Professionaliteit',
@@ -64,6 +65,7 @@
             'wie': 'Wie zijn wij?',
             'team': 'Het Team',
             'Email sturen': 'Email sturen:',
+            'versturen': 'Bericht versturen',
             'voornaam': 'Voornaam',
             'achternaam': 'Achternaam',
             'herhaal': 'Herhaal Email',
@@ -96,8 +98,8 @@
             'friendly': 'Freundlich',
             'warm': 'Warm',
             'taal': 'Sprache',
-            'slogan': 'Denn mit Teamwork kommen Sie am weitesten!',
-            'start': 'Starte sofort'
+            'slogan': 'Denn mit Teamwork machen Sie Erfolg!',
+            'start': 'Starte sofort',
             //home.php
             'zie': 'Mehr sehen',
             'prof': 'Professionalität',
@@ -105,6 +107,7 @@
             'wie': 'Wer wir sind?',
             'team': 'Das Team',
             'Email sturen': 'E-Mail senden:',
+            'versturen': 'Nachricht senden',
             'voornaam': 'Vorname',
             'achternaam': 'Nachname',
             'herhaal': 'Email wiederholen',
@@ -116,7 +119,7 @@
             'ergens anders': 'Was ist, wenn ich meine Website woanders hosten möchte?',
             'bekijk': 'Was ist, wenn ich meine Website woanders hosten möchte?',
             'bellen': 'Ich würde gerne anrufen',
-            'email sturen': 'Ich möchte eine E-Mail senden',
+            'email sturen': 'Ich würde gerne ein E-Mail senden',
             'support email': 'Ich möchte eine Support-E-Mail senden',
             'partnership': 'Ich möchte eine Partnerschaft besprechen',
             'zaken doen': 'Ich würde gerne Geschäfte machen',

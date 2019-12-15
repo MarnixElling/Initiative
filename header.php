@@ -64,7 +64,7 @@
                         <div class="content">
                             <p class="lang" key="settings">instellingen</p>
                             <ul>
-                                <li class="top lang" key="Kleuren">Kleuren Schema:</li>
+                                <li class="top"><span class="lang" key="kleuren">Kleuren Schema:</span></li>
                                 <li><br></li>
                                 <li><a href="home.php?id=1" class="lang" key="business">Business </a><img src="media/kleurenschema1.png" alt="business"></li>
                                 <li><a href="home.php?id=2" class="lang" key="friendly">Friendly </a><img src="media/kleurenschema2.png" alt="friendly"></li>
@@ -86,7 +86,7 @@
                         <h1>INITIATIVE™</h1>
                         <p class="lang" key="slogan">Want met teamwork kom je het verst!</P>
                         <div class="button shadow" style="border: 2px solid <?php echo $color3; ?>;">
-                            <a href="#contact" class="lang" key="start">Start Meteen</a>
+                            <a href="#contact" class="lang" key="start">Start meteen</a>
                         </div>
                         <div class="mouse d-flex justify-content-center">
                             <a href="#skills">

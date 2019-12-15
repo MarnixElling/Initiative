@@ -16,11 +16,11 @@
         <div class="row footer" style="color: <?php echo $color4; ?>;">
             <div class="col-lg-4 col-md-4 flist">
                 <ul>
-                    <li class="top lang" key="vragen">Veel gestelde vragen</li>
-                    <li class="lang" key="domein"><i class="fas fa-chevron-right"></i> Kan ik een domein kopen via INITIATIVE?</li>
-                    <li class="lang" key="hosten"><i class="fas fa-chevron-right"></i> Is het mogelijk om mijn website hosten via INITIATIVE?</li>
-                    <li class="lang" key="ergens anders"><i class="fas fa-chevron-right"></i> Wat als ik mijn website ergens anders wil hosten?</li>
-                    <li class="lang" key="bekijk"><i class="fas fa-chevron-right"></i> Bekijk meer</li>
+                    <li class="top" key="vragen">Veel gestelde vragen</li>
+                    <li><i class="fas fa-chevron-right"></i> <a class="lang" key="domein">Kan ik een domein kopen via INITIATIVE?</a></li>
+                    <li><i class="fas fa-chevron-right"></i> <a class="lang" key="hosten">Is het mogelijk om mijn website hosten via INITIATIVE?</a></li>
+                    <li><i class="fas fa-chevron-right"></i> <a class="lang" key="ergens anders">Wat als ik mijn website ergens anders wil hosten?</a></li>
+                    <li><i class="fas fa-chevron-right"></i> <a class="lang" key="bekijk">Bekijk meer</a></li>
                 </ul>
                 <hr>
             </div>
@@ -35,9 +35,9 @@
             <div class="col-lg-4 col-md-4 flist">
                 <ul>
                     <li class="top lang" key="email sturen">Ik wil graag een email sturen</li>
-                    <li class="lang" key="support email"><i class="fas fa-chevron-right"></i> Ik wil een support email sturen</li>
-                    <li class="lang" key="partnership"><i class="fas fa-chevron-right"></i> Ik zou een partnership willen bespreken</li>
-                    <li class="lang" key="zaken doen"><i class="fas fa-chevron-right"></i> Ik zou graag zaken willen doen</li>
+                    <li><i class="fas fa-chevron-right"></i> <a href="mailto:support@initiative-dev.com" class="lang" key="support email">Ik wil een support email sturen</a></li>
+                    <li><i class="fas fa-chevron-right"></i> <a href="mailto:partner@initiative-dev.com" class="lang" key="partnership">Ik zou een partnership willen bespreken</a></li>
+                    <li><i class="fas fa-chevron-right"></i> <a href="mailto:business@initiative-dev.com" class="lang" key="zaken doen">Ik zou graag zaken willen doen</a></li>
                 </ul>
             </div>
         </div>
