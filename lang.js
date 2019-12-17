@@ -77,7 +77,7 @@ var arrLang = {
             //footer.php
             'vragen': 'Veel gestelde vragen',
             'domein': 'Kan ik een domein kopen via INITIATIVE?',
-            'hosten': 'Is het mogelijk om mijn website hosten via INITIATIVE?',
+            'hosten': 'Is het mogelijk om mijn website te hosten via INITIATIVE?',
             'ergens anders': 'Wat als ik mijn website ergens anders wil hosten?',
             'bekijk': 'Bekijk meer',
             'bellen': 'Ik wil graag bellen',

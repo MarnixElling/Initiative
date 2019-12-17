@@ -18,7 +18,7 @@
                                         contact
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <a class="dropdown-item" href="">FAQ</a>
+                                        <a class="dropdown-item" href="faq.php?id=<?php echo $current; ?>">FAQ</a>
                                         <a class="dropdown-item" href="#contact" class="lang" key="email">Email</a>
                                         <a class="dropdown-item" href="#call" class="lang" key="telefoon">Telefoon</a>
                                     </div>
@@ -44,7 +44,7 @@
                                     contact
                                 </button>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <a class="dropdown-item" href="">FAQ</a>
+                                    <a class="dropdown-item" href="faq.php?id=<?php echo $current; ?>">FAQ</a>
                                     <a class="dropdown-item" href="#contact" class="lang" key="email">Email</a>
                                     <a class="dropdown-item" href="#call" class="lang" key="telefoon">Telefoon</a>
                                 </div>

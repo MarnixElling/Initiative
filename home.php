@@ -15,6 +15,7 @@
                 $color2 = $row['color2'];
                 $color3 = $row['color3'];
                 $color4 = $row['color4'];
+                $current = $row['id'];
             }
         } else {
             echo "Something went wrong while fetching colorschemes data.";
@@ -119,16 +120,16 @@
                 <div class="row" id="about">
                     <div class="col-lg-3 col-md-3"></div>
                     <div class="col-lg-6 col-md-6">
-                        <h1 style="color: <?php echo $color3; ?>;" class="lang" key="wie">Wie zijn wij?</h1><br>
+                        <h1 style="color: <?php echo $color3; ?>;" class="lang" key="wie" data-aos="fade-up">Wie zijn wij?</h1><br>
                         <hr style="background-color: <?php echo $color2; ?>;">
-                        <span style="color: <?php echo $color3; ?>;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</span>
+                        <span style="color: <?php echo $color3; ?>;" data-aos="fade-up">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</span>
                     </div>
                     <div class="col-lg-3 col-md-3"></div>
                 </div>
                 <div class="row employees">
                     <div class="col-lg-2 col-md-2"></div>
                     <div class="col-lg-8 col-md-8">
-                        <h2 style="color: <?php echo $color3; ?>;" class="lang" key="team">Het team:</h2><br>
+                        <h2 style="color: <?php echo $color3; ?>;" class="lang" key="team" data-aos="fade-up">Het team:</h2><br>
                         <hr><br>
                         <div class="d-flex justify-content-around">
                             <?php
@@ -138,7 +139,7 @@
                                 if ($result->num_rows > 0) {
                                     while($row = $result->fetch_assoc()){
                                         ?>
-                                        <div class="employee" style="border: 2px solid <?php echo $color2; ?> ; color: <?php echo $color2; ?>;">
+                                        <div class="employee" style="border: 2px solid <?php echo $color2; ?> ; color: <?php echo $color2; ?>;" data-aos="flip-up">
                                             <img src="<?php echo $row['img']; ?>" alt="<?php echo $row['name']; ?>">
                                             <h2><?php echo $row['name']; ?></h2>
                                             
@@ -158,15 +159,15 @@
                 <div class="row contact" id="contact">
                     <div class="col-lg-2 col-md-2"></div>
                     <div class="col-lg-8 col-md-8 test">
-                        <h2 style="color: <?php echo $color3; ?>;" class="lang" key="Email sturen">Email sturen:</h2><br>
+                        <h2 style="color: <?php echo $color3; ?>;" class="lang" key="Email sturen" data-aos="fade-up">Email sturen:</h2><br>
                         <form id="form" action="common/contact.php" method="post">
-                            <input tabindex="1" class="name lang" key="voornaam" type="text" name="name" placeholder="Voornaam" required>
-                            <input tabindex="2" class="surname lang" key="achternaam" type="text" name="name" placeholder="Achternaam" required><br>
-                            <input tabindex="4" class="mail email2 lang" key="herhaal" type="email" name="email2" placeholder="Herhaal Email" required>
-                            <input tabindex="3" class="mail email1 lang" key="email" type="email" name="email1" placeholder="Email" required><br>
+                            <input data-aos="zoom-in-up" tabindex="1" class="name lang" key="voornaam" type="text" name="name" placeholder="Voornaam" required>
+                            <input data-aos="zoom-in-up" tabindex="2" class="surname lang" key="achternaam" type="text" name="name" placeholder="Achternaam" required><br>
+                            <input data-aos="zoom-in-up" tabindex="4" class="mail email2 lang" key="herhaal" type="email" name="email2" placeholder="Herhaal Email" required>
+                            <input data-aos="zoom-in-up" tabindex="3" class="mail email1 lang" key="email" type="email" name="email1" placeholder="Email" required><br>
                             <div class="error"></div>
-                            <input tabindex="5" class="message lang" key="bericht" type="textarea" name="message" placeholder="Bericht" required><br>
-                            <button type="submit" style="color: <?php echo $color3 ?>; border: 1px solid <?php echo $color3 ?>;" class="button" type="submit" value="submit"><span class="lang" key="versturen">Verstuur bericht</span></button>
+                            <input data-aos="zoom-in-up" tabindex="5" class="message lang" key="bericht" type="textarea" name="message" placeholder="Bericht" required><br>
+                            <button data-aos="zoom-in-up" type="submit" style="color: <?php echo $color3 ?>; border: 1px solid <?php echo $color3 ?>;" class="button" type="submit" value="submit"><span class="lang" key="versturen">Verstuur bericht</span></button>
                             <style>
                                 .button:hover {
                                     background-color: <?php echo $color3; ?> !important;
@@ -180,18 +181,18 @@
                 <div class="row" id="partners">
                     <div class="col-lg-2 col-md-2"></div>
                     <div class="col-lg-8 col-md-8">
-                        <h2 style="color: <?php echo $color3 ?>;" class="lang" key="partners">Partners:</h2><br><br>
+                        <h2 style="color: <?php echo $color3 ?>;" class="lang" key="partners" data-aos="fade-up">Partners:</h2><br><br>
                         <div class="row" class="d-flex justify-content-center">
-                            <div class="col-lg-3 col-md-3">
+                            <div class="col-lg-3 col-md-3" data-aos="zoom-out">
                                 <a href="http://supafresh.nl"><img src="media/logo-SupaFresh.png" alt="SupaFresh" width="35%"></a>
                             </div>
-                            <div class="col-lg-3 col-md-3">
+                            <div class="col-lg-3 col-md-3" data-aos="zoom-in">
                                 <a href="http://bitbenders.gluweb.nl"><img src="media/logo-BitBenders.png" alt="BitBenders" width="25%"></a>
                             </div>
-                            <div class="col-lg-3 col-md-3">
+                            <div class="col-lg-3 col-md-3" data-aos="zoom-out">
                                 <a href="http://bwire.nl"><img src="media/logo-BWire.png" alt="BWire" width="35%"></a>
                             </div>
-                            <div class="col-lg-3 col-md-3">
+                            <div class="col-lg-3 col-md-3" data-aos="zoom-in">
                                 <a href="http://lentjesunlimited.nl"><img src="media/logo-Lentjes.png" alt="LentjesUnlimited" width="25%"></a>
                             </div>
                         </div>
@@ -209,6 +210,10 @@
         <script src="lang.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
         <!-- script links END -->
     </body>
 </html>

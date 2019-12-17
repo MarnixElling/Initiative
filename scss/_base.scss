@@ -54,3 +54,11 @@ $b: #000000;
     border: 1px solid $w;
     @extend %ts;
 }
+%cogmenu {
+    position: fixed;
+    border: none;
+    background: transparent;
+    color: $w;
+    font-size: 30px;
+    outline: none;
+}
