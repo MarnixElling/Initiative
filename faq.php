@@ -1,3 +1,12 @@
+<!--
+  _____ _   _ _____ _______ _____       _______ _______      ________ 
+ |_   _| \ | |_   _|__   __|_   _|   /\|__   __|_   _\ \    / /  ____|
+   | | |  \| | | |    | |    | |    /  \  | |    | |  \ \  / /| |__   
+   | | | . ` | | |    | |    | |   / /\ \ | |    | |   \ \/ / |  __|  
+  _| |_| |\  |_| |_   | |   _| |_ / ____ \| |   _| |_   \  /  | |____ 
+ |_____|_| \_|_____|  |_|  |_____/_/    \_\_|  |_____|   \/   |______|
+                                                                      
+-->
 <!DOCTYPE html>
 <html lang="nl">
     <?php
@@ -87,9 +96,10 @@
                 if ($result->num_rows > 0) {
                     while($row = $result->fetch_assoc()){
                         ?>
-                        <div class="question">
+                        <div data-aos="fade-up" class="question" <?php echo $row['animation']; ?>>
                             <h3 style="color: <?php echo $color2 ?>;"><?php echo $row['question']; ?></h3><br>
-                            <a href="question.php?id=<?php echo $row['id']; ?> " style="color: <?php echo $color3 ?>;"><span class="lang" key="bekijk">Bekijk meer</span>&nbsp; <i class="fas fa-chevron-right"></i></a>
+                            <a class="giveanswer" style="color: <?php echo $color3 ?>;"><span class="lang" key="bekijk">Bekijk meer</span>&nbsp; <i class="fas fa-chevron-right"></i><br><div class="answer"><hr><?php echo $row['answer']; ?></div></a>
+                            
                         </div>
                         <?php
                         }

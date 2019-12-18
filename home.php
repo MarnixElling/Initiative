@@ -1,3 +1,12 @@
+<!--
+  _____ _   _ _____ _______ _____       _______ _______      ________ 
+ |_   _| \ | |_   _|__   __|_   _|   /\|__   __|_   _\ \    / /  ____|
+   | | |  \| | | |    | |    | |    /  \  | |    | |  \ \  / /| |__   
+   | | | . ` | | |    | |    | |   / /\ \ | |    | |   \ \/ / |  __|  
+  _| |_| |\  |_| |_   | |   _| |_ / ____ \| |   _| |_   \  /  | |____ 
+ |_____|_| \_|_____|  |_|  |_____/_/    \_\_|  |_____|   \/   |______|
+                                                                      
+-->
 <!DOCTYPE html>
 <html lang="nl">
     <?php
@@ -97,8 +106,8 @@
                         <div class="col-lg-8 col-md-8">
                             <div class="graph">
                                 <h2 class="lang" key="designtitle">Interactieve vormgeving.</h2>
-                                <span class="lang" key="designtekst">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</span><br><br>
-                                <span class="lang" key="designtekst2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</span>
+                                <span class="lang" key="designtekst">Een ontwerp is veel belangrijker dan veel mensen zouden denken. Zo krijgt een bezoeker al gelijk bij zijn eerste blik een indruk over de website. Is het professioneel, is het te vetrouwen? Of misschien vergelijkt een potentiële klant uw website wel met een website van een ander bedrijf. Daarom is een goed design dus belangrijk voor de bezoeker. En wij kunnen u daarbij helpen!</span><br><br>
+                                <span class="lang" key="designtekst2">Wij snappen dat een goed design niet alleen ligt bij het uiterlijk maar ook bij overzichtelijkheid en verduidelijking van functionaliteit. Gelukkig zijn wij binnen ons team heel erg bekkend met goede en slechte onderdelen van websites, daarnaast zijn we ook creatief en zullen we 'outside the box' denken. Voor een uniek en schoon ontwerp.</span>
                             </div>
                         </div>
                         <div class="col-lg-2 col-md-2"></div>
@@ -122,7 +131,7 @@
                     <div class="col-lg-6 col-md-6">
                         <h1 style="color: <?php echo $color3; ?>;" class="lang" key="wie" data-aos="fade-up">Wie zijn wij?</h1><br>
                         <hr style="background-color: <?php echo $color2; ?>;">
-                        <span style="color: <?php echo $color3; ?>;" data-aos="fade-up">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</span>
+                        <span style="color: <?php echo $color3; ?>;" data-aos="fade-up">Wij van INITIATIVE zijn webdevelopers die u kunnen helpen uw website van droom tot realiteit te maken. Wij realiseren maatwerk websites en kunnen ook zelf een design ontwikkelen. We zijn jong en leergierig en zullen dan ook niet bang zijn om nieuwe oplossingen te utaliseren. Wij zijn ook van mening dat goede communicatie een van de grootste factoren is voor succes. Zo komen we samen tot een prachtig eindproduct!</span>
                     </div>
                     <div class="col-lg-3 col-md-3"></div>
                 </div>
@@ -139,7 +148,7 @@
                                 if ($result->num_rows > 0) {
                                     while($row = $result->fetch_assoc()){
                                         ?>
-                                        <div class="employee" style="border: 2px solid <?php echo $color2; ?> ; color: <?php echo $color2; ?>;" data-aos="flip-up">
+                                        <div class="employee" style="border: 2px solid <?php echo $color2; ?> ; color: <?php echo $color2; ?>;" data-aos="<?php echo $row['animation']; ?>" <?php echo $row['setting']; ?>>
                                             <img src="<?php echo $row['img']; ?>" alt="<?php echo $row['name']; ?>">
                                             <h2><?php echo $row['name']; ?></h2>
                                             

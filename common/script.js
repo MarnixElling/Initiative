@@ -213,4 +213,14 @@ $(document).ready(function(){
             });
         });
     });
+    /* FAQ ANSWERS */
+    $('.giveanswer').on('click', function(){
+        if($('.answer', this).hasClass('showanswer')){
+            $('.answer', this).removeClass('showanswer');
+            $('.fa-chevron-right', this).removeClass('rotate');
+        } else {
+            $('.answer', this).addClass('showanswer');
+            $('.fa-chevron-right', this).addClass('rotate');
+        }        
+    })
 });

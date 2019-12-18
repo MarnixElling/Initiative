@@ -1,7 +1,7 @@
 <?php 
 if(isset($_POST['message'])){
     if($_POST['email1']==$_POST['email2']) {
-        $to = "contact@youngvisual.com"; // this is your Email address
+        $to = "business@initiative-dev.com"; // this is your Email address
         $from = $_POST['email']; // this is the sender's Email address
         $name = $_POST['name'];
         $subject = "Form submission";
