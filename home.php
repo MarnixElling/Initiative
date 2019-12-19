@@ -107,7 +107,7 @@
                             <div class="graph">
                                 <h2 class="lang" key="designtitle">Interactieve vormgeving.</h2>
                                 <span class="lang" key="designtekst">Een ontwerp is veel belangrijker dan veel mensen zouden denken. Zo krijgt een bezoeker al gelijk bij zijn eerste blik een indruk over de website. Is het professioneel, is het te vetrouwen? Of misschien vergelijkt een potentiële klant uw website wel met een website van een ander bedrijf. Daarom is een goed design dus belangrijk voor de bezoeker. En wij kunnen u daarbij helpen!</span><br><br>
-                                <span class="lang" key="designtekst2">Wij snappen dat een goed design niet alleen ligt bij het uiterlijk maar ook bij overzichtelijkheid en verduidelijking van functionaliteit. Gelukkig zijn wij binnen ons team heel erg bekkend met goede en slechte onderdelen van websites, daarnaast zijn we ook creatief en zullen we 'outside the box' denken. Voor een uniek en schoon ontwerp.</span>
+                                <span class="lang" key="designtekst2">Wij snappen dat een goed design niet alleen ligt bij het uiterlijk maar ook bij overzichtelijkheid en verduidelijking van functionaliteit. Gelukkig zijn wij binnen ons team heel erg bekend met goede en slechte onderdelen van websites, daarnaast zijn we ook creatief en zullen we 'outside the box' denken. Voor een uniek en schoon ontwerp.</span>
                             </div>
                         </div>
                         <div class="col-lg-2 col-md-2"></div>
