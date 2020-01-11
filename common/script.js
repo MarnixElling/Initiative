@@ -223,4 +223,23 @@ $(document).ready(function(){
             $('.fa-chevron-right', this).addClass('rotate');
         }        
     })
+    /* HAMBURGER MENU */
+    $('.hamburger').click(function() {
+        if($('.hamburger').hasClass('is-inactive')) {
+            $('.hamburger').removeClass('is-inactive');
+            $('.hamburger').addClass('is-active');
+            $('.navsidebar').addClass('active');
+        } else {
+            $('.hamburger').addClass('is-inactive');
+            $('.hamburger').removeClass('is-active');
+            $('.navsidebar').removeClass('active');
+        }
+    });
+    $('.menu-link').click(function() {
+        if($('.hamburger').hasClass('is-active')){
+            $('.hamburger').addClass('is-inactive');
+            $('.hamburger').removeClass('is-active');
+            $('.navsidebar').removeClass('active');
+        }
+    });
 });

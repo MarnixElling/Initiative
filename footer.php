@@ -16,10 +16,10 @@
         <div class="row footer" style="color: <?php echo $color4; ?>;">
             <div class="col-lg-4 col-md-4 flist">
                 <ul>
-                    <li class="top" key="vragen">Veel gestelde vragen</li>
-                    <li><i class="fas fa-chevron-right"></i> <a class="lang" key="domein">Kan ik een domein kopen via INITIATIVE?</a></li>
-                    <li><i class="fas fa-chevron-right"></i> <a class="lang" key="hosten">Is het mogelijk om mijn website hosten te via INITIATIVE?</a></li>
-                    <li><i class="fas fa-chevron-right"></i> <a class="lang" key="ergens anders">Wat als ik mijn website ergens anders wil hosten?</a></li>
+                    <li class="top lang" key="vragen">Veel gestelde vragen</li>
+                    <li class="faqq"><i class="fas fa-chevron-right"></i> <a class="lang" key="domein">Kan ik een domein kopen via INITIATIVE?</a></li>
+                    <li class="faqq"><i class="fas fa-chevron-right"></i> <a class="lang" key="hosten">Is het mogelijk om mijn website hosten te via INITIATIVE?</a></li>
+                    <li class="faqq"><i class="fas fa-chevron-right"></i> <a class="lang" key="ergens anders">Wat als ik mijn website ergens anders wil hosten?</a></li>
                     <li><i class="fas fa-chevron-right"></i> <a class="lang" key="bekijk">Bekijk meer</a></li>
                 </ul>
                 <hr>

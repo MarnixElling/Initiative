@@ -1,0 +1,110 @@
+@import 'base';
+
+@media only screen and (max-width: 1075px) {
+    body {
+        .navmenu {
+            display: inline-block !important;
+            position: absolute;
+            .navsidebar {
+                background-color: $w;
+                width: 30%;
+                height: 100vh;
+                position: fixed;
+                z-index: 4;
+                margin-top: -10vh;
+                left: -30%;
+                transition: left 0.5s ease;
+                .content {
+                    margin-top: 75px;
+                    width: 66%;
+                    ul {
+                        list-style-type: none;
+                        li {
+                            line-height: 50px;
+                            a:link {
+                                color: $b;
+                            }
+                            a:visited {
+                                color: $b;
+                            }
+                        }
+                    }
+                }
+            }
+            .active {
+                left: 0 !important;
+            }
+        }
+        .nav {
+            .menubutton {
+                padding-top: 20px;
+            }
+            .hamburger {
+                display: block !important;
+                position: fixed;
+                z-index: 5;
+                margin-left: 2%;
+            }
+            .navigation {
+                ul {
+                    display: none;
+                }
+            }
+        }
+        .front {
+            h1 {
+                font-size: 110px !important;
+            }
+            p {
+                font-size: 17px;
+            }
+            .button {
+                font-size: 15px;
+            }
+        }
+        .grow {
+            ul {
+                max-height: 90px;
+                li {
+                    opacity: 0;
+                }
+            }
+        }
+        #skills {
+            .skill {
+                .circle {
+                    margin-left: 18%;
+                }
+            }
+        }
+        .graph {
+            line-height: 20px;
+            span {
+                font-size: 15px;
+            }
+        }
+        .contact-info {
+            font-size: 10px;
+        }
+        footer {
+            .flist {
+                display: block !important;
+            }
+            hr {
+                display: none;
+            }
+            ul {
+                margin: 0 !important;
+                .top {
+                    font-size: 20px !important;
+                }
+                li {
+                    font-size: 13px !important;
+                }
+                .faqq {
+                    display: none;
+                }
+            }
+        }
+    }
+}
