@@ -15,7 +15,7 @@
     ?>
     <body>
         <?php
-        $sql = "SELECT * FROM colorschemes WHERE id=".$_GET['id'];
+        $sql = "SELECT * FROM colorschemes WHERE id=".$_COOKIE['colorscheme']; // hier gebruik je de value die je op heb geslaan in cookie ipv GET
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
